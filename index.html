@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Duel Simulator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Germania One', Arial, sans-serif; background: #f4f4f9; color: #222; margin: 0; padding: 0; }
+    .container { max-width: 800px; margin: 30px auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); padding: 32px 40px 40px 40px; }
+    h1 { font-size: 2.2em; margin-bottom: 0.2em; text-align: center; }
+    label, select, input, button { font-size: 1.1em; }
+    .row { display: flex; gap: 24px; margin-bottom: 18px; align-items: center; }
+    .row label { min-width: 120px; }
+    .cards-list { max-height: 180px; overflow-y: auto; border: 1px solid #ddd; border-radius: 8px; padding: 12px; background: #fafbfc; margin-bottom: 18px; }
+    .card-item { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+    .card-name { font-weight: bold; margin-right: 8px; }
+    .card-effect { color: #555; font-size: 0.95em; }
+    button { background: #222; color: #fff; border: none; border-radius: 6px; padding: 10px 28px; font-size: 1.2em; cursor: pointer; transition: background 0.2s; }
+    button:hover { background: #444; }
+    .results { margin-top: 32px; background: #f7f7fa; border-radius: 8px; padding: 18px 24px; font-size: 1.1em; }
+    .stat-table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    .stat-table th, .stat-table td { border: 1px solid #ccc; padding: 6px 10px; text-align: left; }
+    .stat-table th { background: #f0f0f0; }
+    @media (max-width: 800px) { .container { padding: 12px; } .row { flex-direction: column; gap: 8px; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Card Duel Simulator</h1>
+    <form id="sim-form">
+      <div class="row">
+        <label for="player1-strategy">Стратегия 1:</label>
+        <select id="player1-strategy" name="player1-strategy"></select>
+        <label for="hp1">HP 1:</label>
+        <input type="number" id="hp1" name="hp1" value="40" min="1" max="99">
+      </div>
+      <div class="row">
+        <label for="player2-strategy">Стратегия 2:</label>
+        <select id="player2-strategy" name="player2-strategy"></select>
+        <label for="hp2">HP 2:</label>
+        <input type="number" id="hp2" name="hp2" value="50" min="1" max="99">
+      </div>
+      <div class="row">
+        <label for="num_games">Кол-во игр:</label>
+        <input type="number" id="num_games" name="num_games" value="1000" min="1" max="100000">
+      </div>
+      <div class="row">
+        <label>Карты (отключить/включить):</label>
+      </div>
+      <div class="cards-list" id="cards-list"></div>
+      <button type="submit">Запустить анализ</button>
+    </form>
+    <div class="results" id="results" style="display:none;"></div>
+    <button id="open-strategy-config" style="margin-top:24px;">Настроить стратегию</button>
+    <div id="strategy-config-modal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.35); z-index:1000; align-items:center; justify-content:center;">
+      <div style="background:#fff; border-radius:12px; padding:32px 24px; min-width:340px; max-width:90vw; max-height:90vh; overflow-y:auto; box-shadow:0 4px 32px rgba(0,0,0,0.18); position:relative;">
+        <button id="close-strategy-config" type="button" style="position:absolute; top:12px; right:12px; font-size:2em; background:none; border:none; cursor:pointer; z-index:1100; color:#111;">×</button>
+        <h2 style="margin-top:0;">Настройка стратегии</h2>
+        <div style="font-size:0.98em; color:#666; margin-bottom:8px;">Снятая галочка — карта не будет покупаться ботом.</div>
+        <div style="margin-bottom:10px;">
+          <label>Выбрать стратегию:
+            <select id="strategy-select" style="font-size:1em; margin-bottom:8px; min-width:160px;"></select>
+          </label>
+        </div>
+        <label>Имя стратегии: <input id="strategy-name" style="font-size:1em; margin-bottom:12px;" maxlength="32"></label>
+        <div id="strategy-cards-blocks"></div>
+        <div style="margin-top:18px; background:#f3f6ff; border:1.5px solid #90caf9; border-radius:8px; padding:10px 14px 12px 14px;">
+          <b>Приоритет эффектов</b> <span title="Перетащите эффекты мышкой: слева — самый высокий приоритет. Бот будет выбирать карты с эффектами в этом порядке.">🛈</span><br>
+          <ul id="effect-priority-list" style="list-style:none; padding:0; margin:8px 0 0 0; display:flex; flex-wrap:wrap; gap:10px; min-height:36px;"></ul>
+          <small style="color:#1976d2;">Перетащите эффекты для задания приоритета (слева — самый высокий)</small>
+        </div>
+        <div style="margin-top:14px;">
+          <label>Максимальная стоимость карты: <input type="number" id="max-cost" min="0" max="20" value="20" style="width:60px;"></label>
+        </div>
+        <div style="margin-top:10px;">
+          <label><input type="checkbox" id="focus-trash"> Фокус на трэш (активно избавляться от стартовых карт)</label>
+        </div>
+        <div style="margin-top:10px;">
+          <label><input type="checkbox" id="focus-priestess"> Фокус на Priestess (приоритет покупки и действий с Priestess)</label>
+        </div>
+        <div style="margin-top:10px;">
+          <label>Трэшить Priestess после <input type="number" id="priestess-trash-after" min="0" max="10" value="" style="width:40px;"> раз (0 — сразу, пусто — не трешить)</label>
+        </div>
+        <div style="margin-top:10px;">
+          <label><input type="checkbox" id="priestess-buy-if-2"> Всегда покупать Priestess за 2, если нет других приоритетных карт</label>
+        </div>
+        <button id="save-strategy" type="button" style="margin-top:18px;">Сохранить стратегию</button>
+        <h3 style="margin-top:28px;">Сохранённые стратегии</h3>
+        <ul id="saved-strategies-list" style="padding-left:18px;"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+  <script>
+    async function loadStrategies() {
+      const strategies = [
+        {name: 'random'}
+      ];
+      const s1 = document.getElementById('player1-strategy');
+      const s2 = document.getElementById('player2-strategy');
+      strategies.forEach(s => {
+        s1.innerHTML += `<option value="std:${s.name}">${s.name}</option>`;
+        s2.innerHTML += `<option value="std:${s.name}">${s.name}</option>`;
+      });
+      s1.value = 'std:random';
+      s2.value = 'std:random';
+    }
+    let allCards = [];
+    let cardColors = [];
+    let cardColorMap = {};
+    let cardBlocks = {};
+    let currentStrategy = null;
+    let savedStrategies = {};
+
+    async function loadCards() {
+      const res = await fetch('/api/cards');
+      const data = await res.json();
+      const cards = [...data.main];
+      allCards = cards;
+      // Группировка по цветам
+      cardColors = [...new Set(cards.map(c => c.color))].filter(Boolean);
+      cardColorMap = {};
+      cardColors.forEach(color => {
+        cardColorMap[color] = cards.filter(c => c.color === color).sort((a,b) => a.cost-b.cost);
+      });
+      const list = document.getElementById('cards-list');
+      list.innerHTML = '';
+      cards.forEach(card => {
+        const id = `card_${card.name.replace(/\W/g,'_')}`;
+        // Собираем все эффекты из всех полей
+        let effects = [];
+        if (card.effect1 && card.effect1.toLowerCase() !== 'none') effects.push(card.effect1);
+        if (card.effect2 && card.effect2.toLowerCase() !== 'none') effects.push(card.effect2);
+        if (card.effect1text && card.effect1text.toLowerCase() !== 'none') effects.push(card.effect1text);
+        if (card.effect2text && card.effect2text.toLowerCase() !== 'none') effects.push(card.effect2text);
+        if (card.abilities) {
+          for (const [k, v] of Object.entries(card.abilities)) {
+            if (typeof v === 'string' && v && v.toLowerCase() !== 'none' && !effects.includes(v) && k.toLowerCase().includes('effect')) {
+              effects.push(v);
+            }
+          }
+        }
+        const effectsStr = effects.join(' | ');
+        list.innerHTML += `
+          <div class="card-item">
+            <input type="checkbox" id="${id}" checked>
+            <span class="card-name">${card.name}</span>
+            <span class="card-effect">[${card.color}] ${effectsStr}</span>
+          </div>
+        `;
+      });
+    }
+    loadStrategies();
+    loadCards();
+
+    function updateStrategySelects() {
+      const stdStrategies = [
+        {name: 'random'}
+      ];
+      const select1 = document.getElementById('player1-strategy');
+      const select2 = document.getElementById('player2-strategy');
+      select1.innerHTML = '';
+      select2.innerHTML = '';
+      stdStrategies.forEach(s => {
+        select1.innerHTML += `<option value="std:${s.name}">${s.name}</option>`;
+        select2.innerHTML += `<option value="std:${s.name}">${s.name}</option>`;
+      });
+      Object.values(savedStrategies).forEach(strat => {
+        select1.innerHTML += `<option value="user:${strat.name}">${strat.name}</option>`;
+        select2.innerHTML += `<option value="user:${strat.name}">${strat.name}</option>`;
+      });
+      select1.value = 'std:random';
+      select2.value = 'std:random';
+    }
+    function getSelectedStrategy(val) {
+      if (!val) return null;
+      if (val.startsWith('std:')) return {type: 'std', name: val.slice(4)};
+      if (val.startsWith('user:')) return {type: 'user', name: val.slice(5)};
+      return null;
+    }
+    document.getElementById('sim-form').onsubmit = async function(e) {
+      e.preventDefault();
+      const s1 = getSelectedStrategy(document.getElementById('player1-strategy').value);
+      const s2 = getSelectedStrategy(document.getElementById('player2-strategy').value);
+      const hp1 = +document.getElementById('hp1').value;
+      const hp2 = +document.getElementById('hp2').value;
+      const num_games = +document.getElementById('num_games').value;
+      const cards = Array.from(document.querySelectorAll('.cards-list input[type=checkbox]'))
+        .filter(cb => cb.checked)
+        .map(cb => cb.parentElement.querySelector('.card-name').textContent);
+      let strategy1 = null, strategy2 = null;
+      if (s1?.type === 'std') strategy1 = s1.name;
+      if (s2?.type === 'std') strategy2 = s2.name;
+      let user_strategy1 = null, user_strategy2 = null;
+      if (s1?.type === 'user') user_strategy1 = savedStrategies[s1.name];
+      if (s2?.type === 'user') user_strategy2 = savedStrategies[s2.name];
+      document.getElementById('results').style.display = 'block';
+      document.getElementById('results').innerHTML = 'Анализ запущен...';
+      const res = await fetch('/api/simulate', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({strategy1, strategy2, user_strategy1, user_strategy2, hp1, hp2, num_games, enabled_cards: cards})
+      });
+      const data = await res.json();
+      // --- Обработка ошибок ---
+      if (data.result === 'error' || !data.stats) {
+        let errMsg = '<b>Ошибка симуляции!</b><br>';
+        if (data.error) errMsg += `<pre>${data.error}</pre>`;
+        if (data.traceback) errMsg += `<details><summary>Traceback</summary><pre>${data.traceback}</pre></details>`;
+        document.getElementById('results').innerHTML = errMsg;
+        return;
+      }
+      const stats = data.stats;
+      let html = `<b>Результаты:</b><br>`;
+      html += `<table class="stat-table">
+        <tr><th>P1 win</th><td>${stats.P1_win}</td><th>P2 win</th><td>${stats.P2_win}</td></tr>
+        <tr><th>Среднее ходов</th><td>${stats.avg_turns}</td><th></th><td></td></tr>
+        <tr><th>Побед через яд (P1)</th><td>${stats.poison_win1 ?? '-'}</td><th>Побед через яд (P2)</th><td>${stats.poison_win2 ?? '-'}</td></tr>
+        <tr><th>Среднее HP1</th><td>${stats.avg_hp1}</td><th>Среднее HP2</th><td>${stats.avg_hp2}</td></tr>
+        <tr><th>Средний урон P1→P2</th><td>${stats.avg_damage1 ?? '-'}</td><th>Средний урон P2→P1</th><td>${stats.avg_damage2 ?? '-'}</td></tr>
+        <tr><th>Gear (среднее, P1)</th><td>${stats.gear_saved_damage_avg ? stats.gear_saved_damage_avg[0] : '-'}</td><th>Gear (среднее, P2)</th><td>${stats.gear_saved_damage_avg ? stats.gear_saved_damage_avg[1] : '-'}</td></tr>
+        <tr><th>Gear (суммарно, P1)</th><td>${stats.gear_saved_damage_total ? stats.gear_saved_damage_total[0] : '-'}</td><th>Gear (суммарно, P2)</th><td>${stats.gear_saved_damage_total ? stats.gear_saved_damage_total[1] : '-'}</td></tr>
+        <tr><th colspan="4">--- Средние значения эффектов за партию ---</th></tr>
+        <tr><th>Урон нанесён (P1)</th><td>${stats.avg_damage_dealt1}</td><th>Урон нанесён (P2)</th><td>${stats.avg_damage_dealt2}</td></tr>
+        <tr><th>Яд нанесён (P1)</th><td>${stats.avg_poison_dealt1}</td><th>Яд нанесён (P2)</th><td>${stats.avg_poison_dealt2}</td></tr>
+        <tr><th>Bleed нанесён (P1)</th><td>${stats.avg_bleed_dealt1}</td><th>Bleed нанесён (P2)</th><td>${stats.avg_bleed_dealt2}</td></tr>
+        <tr><th>Лечение HP (P1)</th><td>${stats.avg_heal_received1}</td><th>Лечение HP (P2)</th><td>${stats.avg_heal_received2}</td></tr>
+        <tr><th>Лечение яда (P1)</th><td>${stats.avg_poison_heal_received1}</td><th>Лечение яда (P2)</th><td>${stats.avg_poison_heal_received2}</td></tr>
+        <tr><th>Лечение bleed (P1)</th><td>${stats.avg_bleed_heal_received1}</td><th>Лечение bleed (P2)</th><td>${stats.avg_bleed_heal_received2}</td></tr>
+        <tr><th>Трэш (P1, trash)</th><td>${stats.avg_trash1}</td><th>Трэш (P2, trash)</th><td>${stats.avg_trash2}</td></tr>
+        <tr><th>Трэш (P1, trash_this)</th><td>${stats.avg_trash_this1}</td><th>Трэш (P2, trash_this)</th><td>${stats.avg_trash_this2}</td></tr>
+      </table>`;
+      html += `<b>Трэш (топ):</b><br><ul>`;
+      stats.trashed_cards.forEach(([name, count]) => {
+        html += `<li>${name}: ${count}</li>`;
+      });
+      html += `</ul>`;
+      html += `<b>Топ карт по value:</b><br><ul>`;
+      stats.top_cards.forEach(([name, count]) => {
+        html += `<li>${name}: ${count}</li>`;
+      });
+      html += `</ul>`;
+      html += `<b>Gear (поглощённый урон):</b><br><ul>`;
+      stats.gear_absorbed.forEach(([name, val]) => {
+        html += `<li>${name}: ${val}</li>`;
+      });
+      html += `</ul>`;
+      document.getElementById('results').innerHTML = html;
+      // --- Подробный лог игры (только если detailed_log есть) ---
+      if (data.detailed_log && Array.isArray(data.detailed_log)) {
+        let logHtml = `<hr><b>Подробный лог партии (пошагово):</b><br>`;
+        logHtml += `<div id="detailed-log-block">`;
+        data.detailed_log.forEach(turn => {
+          logHtml += `<details style='margin-bottom:8px;'><summary><b>Ход ${turn.turn}</b></summary>`;
+          turn.actions.forEach(action => {
+            if (action.lost) {
+              logHtml += `<div style='color:#b00; margin-left:12px;'><b>${action.player} проиграл!</b></div>`;
+              return;
+            }
+            if (action.start_status) {
+              logHtml += `<div style='margin-left:12px;'><b>${action.player} (начало):</b> HP=${action.start_status.hp}, Poison=${action.start_status.poison}, Bleed=${action.start_status.bleed}, Hand=[${action.start_status.hand.join(', ')}], Gear=[${action.start_status.gear.join(', ')}]</div>`;
+            }
+            if (action.played && action.played.length) {
+              logHtml += `<div style='margin-left:18px;'>Разыграно: ${action.played.join(', ')}</div>`;
+            }
+            if (action.effects && action.effects.length) {
+              logHtml += `<div style='margin-left:18px;'>Эффекты:<ul style='margin:0 0 0 16px;'>`;
+              action.effects.forEach(eff => {
+                logHtml += `<li>${eff.card}: ${eff.effect} (${eff.value}) → ${eff.target}</li>`;
+              });
+              logHtml += `</ul></div>`;
+            }
+            if (action.bought && action.bought.length) {
+              logHtml += `<div style='margin-left:18px;'>Покупки: ${action.bought.join(', ')}</div>`;
+            }
+            if (action.buy_steps && Array.isArray(action.buy_steps) && action.buy_steps.length) {
+              logHtml += `<div style='margin-left:18px;'>Покупки по шагам:<ul style='margin:0 0 0 16px;'>`;
+              action.buy_steps.forEach(step => {
+                logHtml += `<li>Было <b>${step.before}</b>, купил <b>${step.card}</b> за <b>${step.cost}</b>, осталось <b>${step.after}</b></li>`;
+              });
+              logHtml += `</ul></div>`;
+            }
+            if (action.market_states && action.market_states.length) {
+              logHtml += `<details style='margin-left:18px;'><summary>Состояния рынка</summary><ul style='margin:0 0 0 16px;'>`;
+              action.market_states.forEach(ms => {
+                logHtml += `<li>Куплено: <b>${ms.buy}</b>, Рынок: `;
+                if (Array.isArray(ms.market) && ms.market.length && typeof ms.market[0] === 'object') {
+                  ms.market.forEach(card => {
+                    let color = card.color || 'gray';
+                    let hex = colorToHex(color);
+                    let gear = card.is_gear ? ' 🛡️' : '';
+                    let count = card.copies > 1 ? ` <span style='color:#888;'>(${card.copies})</span>` : '';
+                    if (color.toLowerCase() === 'white' || hex === 'fff176') {
+                      logHtml += `<span style='color:#bbb; background:#fff; border:1.5px solid #111; border-radius:5px; padding:0 4px; font-weight:bold; margin-right:6px;'>${card.name}${gear}</span><span style='color:#555;'>(cost ${card.cost})</span>${count} `;
+                    } else {
+                      logHtml += `<span style='color:#${hex}; font-weight:bold; margin-right:6px;'>${card.name}${gear}</span><span style='color:#555;'>(cost ${card.cost})</span>${count} `;
+                    }
+                  });
+                } else if (Array.isArray(ms.market)) {
+                  // fallback: просто список имён
+                  logHtml += ms.market.map(x=>`<span>${x}</span>`).join(', ');
+                }
+                logHtml += `</li>`;
+              });
+              logHtml += `</ul></details>`;
+            }
+            if (action.end_status) {
+              logHtml += `<div style='margin-left:12px; color:#080;'><b>${action.player} (конец):</b> HP=${action.end_status.hp}, Poison=${action.end_status.poison}, Bleed=${action.end_status.bleed}, Hand=[${action.end_status.hand.join(', ')}], Gear=[${action.end_status.gear.join(', ')}]</div>`;
+            }
+          });
+          logHtml += `</details>`;
+        });
+        logHtml += `</div>`;
+        document.getElementById('results').innerHTML += logHtml;
+      }
+    };
+
+    // --- Стратегии ---
+    function renderStrategyBlocks(strategy=null) {
+      const container = document.getElementById('strategy-cards-blocks');
+      container.innerHTML = '';
+      cardBlocks = {};
+      cardColors.forEach(color => {
+        const block = document.createElement('div');
+        block.style.border = '2px solid #'+(colorToHex(color));
+        block.style.borderRadius = '8px';
+        block.style.marginBottom = '18px';
+        block.style.padding = '10px 12px 12px 12px';
+        block.style.background = '#f9f9fc';
+        block.innerHTML = `<b style="color:#${colorToHex(color)}; font-size:1.1em;">${color}</b>`;
+        // Кнопки выбрать/снять все
+        const btns = document.createElement('div');
+        btns.style.margin = '6px 0 8px 0';
+        btns.innerHTML = `<button type="button" class="select-all" data-color="${color}">Выбрать все</button> <button type="button" class="deselect-all" data-color="${color}">Снять все</button>`;
+        block.appendChild(btns);
+        const ul = document.createElement('ul');
+        ul.style.listStyle = 'none';
+        ul.style.padding = '0';
+        ul.style.margin = '8px 0 0 0';
+        ul.id = `block_${color}`;
+        let cards = cardColorMap[color];
+        if (strategy && strategy.cards && strategy.cards[color]) {
+          // Восстановить порядок и включённость
+          cards = strategy.cards[color].map(obj => {
+            return allCards.find(c => c.name === obj.name) || obj;
+          });
+        }
+        cards.forEach(card => {
+          const li = document.createElement('li');
+          li.style.display = 'flex';
+          li.style.alignItems = 'center';
+          li.style.gap = '8px';
+          li.style.marginBottom = '6px';
+          li.setAttribute('data-card', card.name);
+          li.innerHTML = `
+            <input type="checkbox" class="strategy-card-checkbox" ${!strategy||!strategy.cards||!strategy.cards[color]||strategy.cards[color].find(obj=>obj.name===card.name)?.enabled!==false?'checked':''}>
+            <span class="card-name" style="${!strategy||!strategy.cards||!strategy.cards[color]||strategy.cards[color].find(obj=>obj.name===card.name)?.enabled!==false?'':'color:#bbb;text-decoration:line-through;'}">${card.name}</span>
+            <span style="color:#555; font-size:0.95em;">(cost ${card.cost})</span>
+            <span style="color:#888; font-size:0.9em;">${card.effect1} ${card.effect2}</span>
+          `;
+          ul.appendChild(li);
+        });
+        block.appendChild(ul);
+        container.appendChild(block);
+        Sortable.create(ul, {animation: 150});
+        cardBlocks[color] = ul;
+      });
+      // Навешиваем обработчики на кнопки выбрать/снять все
+      setTimeout(()=>{
+        document.querySelectorAll('.select-all').forEach(btn=>{
+          btn.onclick = ()=>{
+            const color = btn.getAttribute('data-color');
+            Array.from(cardBlocks[color].children).forEach(li=>{
+              li.querySelector('input[type=checkbox]').checked = true;
+              li.querySelector('.card-name').style.color = '';
+              li.querySelector('.card-name').style.textDecoration = '';
+            });
+          };
+        });
+        document.querySelectorAll('.deselect-all').forEach(btn=>{
+          btn.onclick = ()=>{
+            const color = btn.getAttribute('data-color');
+            Array.from(cardBlocks[color].children).forEach(li=>{
+              li.querySelector('input[type=checkbox]').checked = false;
+              li.querySelector('.card-name').style.color = '#bbb';
+              li.querySelector('.card-name').style.textDecoration = 'line-through';
+            });
+          };
+        });
+        // Галочки: визуальное выделение
+        document.querySelectorAll('.strategy-card-checkbox').forEach(cb=>{
+          cb.onchange = ()=>{
+            const nameSpan = cb.parentElement.querySelector('.card-name');
+            if(cb.checked){
+              nameSpan.style.color = '';
+              nameSpan.style.textDecoration = '';
+            } else {
+              nameSpan.style.color = '#bbb';
+              nameSpan.style.textDecoration = 'line-through';
+            }
+          };
+        });
+      }, 100);
+      document.getElementById('focus-trash').checked = !!strategy?.focus_trash;
+      document.getElementById('focus-priestess').checked = !!strategy?.focus_priestess;
+      document.getElementById('priestess-trash-after').value = strategy?.priestess_trash_after ?? '';
+      document.getElementById('priestess-buy-if-2').checked = !!strategy?.priestess_buy_if_2;
+    }
+    function colorToHex(color) {
+      // Примитивное сопоставление цвета с hex (можно расширить)
+      const map = {red:'e57373', blue:'64b5f6', green:'81c784', white:'fff176', black:'757575', yellow:'ffd54f', purple:'ba68c8', orange:'ffb74d'};
+      return map[color.toLowerCase()]||'bdbdbd';
+    }
+    const EFFECTS = ['Draw', 'Heal', 'Poison', 'Bleed', 'Trash', 'Gear', 'Spy', 'Stun', 'Blessing', 'Damage'];
+    function renderEffectPriorityList(strategy=null) {
+      const ul = document.getElementById('effect-priority-list');
+      ul.innerHTML = '';
+      let effects = EFFECTS.slice();
+      if (strategy && strategy.effect_priority) {
+        effects = strategy.effect_priority.concat(effects.filter(e=>!strategy.effect_priority.includes(e)));
+      }
+      effects.forEach(eff => {
+        const li = document.createElement('li');
+        li.textContent = eff;
+        li.style.background = '#eee';
+        li.style.padding = '4px 10px';
+        li.style.borderRadius = '6px';
+        li.style.cursor = 'grab';
+        li.style.userSelect = 'none';
+        ul.appendChild(li);
+      });
+      Sortable.create(ul, {animation: 150});
+    }
+    function getStrategyFromUI() {
+      const name = document.getElementById('strategy-name').value.trim()||'Без имени';
+      const cards = {};
+      cardColors.forEach(color => {
+        const ul = cardBlocks[color];
+        if (!ul) return; // предотвращает ошибку, если блока нет
+        cards[color] = Array.from(ul.children).map(li => {
+          return {
+            name: li.querySelector('.card-name').textContent,
+            enabled: li.querySelector('input[type=checkbox]').checked
+          };
+        });
+      });
+      // Эффекты
+      const effect_priority = Array.from(document.querySelectorAll('#effect-priority-list li')).map(li=>li.textContent);
+      // Стоимость
+      const max_cost = +document.getElementById('max-cost').value;
+      // Фокус на трэш
+      const focus_trash = document.getElementById('focus-trash').checked;
+      // Фокус на Priestess
+      const focus_priestess = document.getElementById('focus-priestess').checked;
+      const priestess_trash_after = document.getElementById('priestess-trash-after').value ? +document.getElementById('priestess-trash-after').value : null;
+      const priestess_buy_if_2 = document.getElementById('priestess-buy-if-2').checked;
+      return {name, cards, effect_priority, max_cost, focus_trash, focus_priestess, priestess_trash_after, priestess_buy_if_2};
+    }
+    function saveStrategy() {
+      const strat = getStrategyFromUI();
+      savedStrategies[strat.name] = strat;
+      localStorage.setItem('saved_strategies', JSON.stringify(savedStrategies));
+      renderSavedStrategies();
+    }
+    function renderSavedStrategies() {
+      const ul = document.getElementById('saved-strategies-list');
+      ul.innerHTML = '';
+      Object.values(savedStrategies).forEach(strat => {
+        const li = document.createElement('li');
+        li.style.marginBottom = '6px';
+        li.innerHTML = `<b>${strat.name}</b> <button data-name="${strat.name}" class="choose-strategy">Выбрать</button> <button data-name="${strat.name}" class="delete-strategy">Удалить</button>`;
+        ul.appendChild(li);
+      });
+      // Кнопки
+      ul.querySelectorAll('.choose-strategy').forEach(btn => {
+        btn.onclick = e => {
+          const strat = savedStrategies[btn.getAttribute('data-name')];
+          if (strat) {
+            document.getElementById('strategy-name').value = strat.name;
+            renderStrategyBlocks(strat);
+            currentStrategy = strat;
+          }
+        };
+      });
+      ul.querySelectorAll('.delete-strategy').forEach(btn => {
+        btn.onclick = e => {
+          const name = btn.getAttribute('data-name');
+          delete savedStrategies[name];
+          localStorage.setItem('saved_strategies', JSON.stringify(savedStrategies));
+          renderSavedStrategies();
+        };
+      });
+    }
+    function updateUserStrategySelects() {
+      const select1 = document.getElementById('user-strategy1');
+      const select2 = document.getElementById('user-strategy2');
+      select1.innerHTML = '<option value="">(не выбрана)</option>';
+      select2.innerHTML = '<option value="">(не выбрана)</option>';
+      Object.values(savedStrategies).forEach(strat => {
+        select1.innerHTML += `<option value="${strat.name}">${strat.name}</option>`;
+        select2.innerHTML += `<option value="${strat.name}">${strat.name}</option>`;
+      });
+    }
+    function getUserStrategyObj(stratName) {
+      if (!stratName || !savedStrategies[stratName]) return null;
+      return savedStrategies[stratName];
+    }
+    // --- Заполнение выпадающего списка стратегий ---
+    function updateStrategyDropdown() {
+      const select = document.getElementById('strategy-select');
+      select.innerHTML = '';
+      select.innerHTML += `<option value="">(Новая стратегия)</option>`;
+      Object.values(savedStrategies).forEach(strat => {
+        select.innerHTML += `<option value="${strat.name}">${strat.name}</option>`;
+      });
+      select.value = currentStrategy?.name || '';
+    }
+
+    // --- Обработка выбора стратегии из списка ---
+    document.addEventListener('DOMContentLoaded', ()=>{
+      document.getElementById('open-strategy-config').onclick = ()=>{
+        document.getElementById('strategy-config-modal').style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+        document.getElementById('strategy-name').value = currentStrategy?.name||'';
+        // Форсируем рендер блоков карт даже если currentStrategy=null
+        renderStrategyBlocks(currentStrategy||null);
+        renderEffectPriorityList(currentStrategy||null);
+        renderSavedStrategies();
+        updateStrategyDropdown();
+      };
+      document.getElementById('close-strategy-config').onclick = ()=>{
+        document.getElementById('strategy-config-modal').style.display = 'none';
+        document.body.style.overflow = '';
+      };
+      document.getElementById('save-strategy').onclick = ()=>{
+        saveStrategy();
+        alert('Стратегия сохранена!');
+        updateStrategySelects();
+      };
+      // Загрузка сохранённых стратегий
+      try {
+        savedStrategies = JSON.parse(localStorage.getItem('saved_strategies')||'{}');
+      } catch(e) { savedStrategies = {}; }
+      if (Object.keys(savedStrategies).length) {
+        currentStrategy = Object.values(savedStrategies)[0];
+      }
+      updateStrategySelects();
+      setTimeout(()=>{
+        updateStrategyDropdown();
+        document.getElementById('strategy-select').onchange = function() {
+          const name = this.value;
+          if (name && savedStrategies[name]) {
+            document.getElementById('strategy-name').value = name;
+            renderStrategyBlocks(savedStrategies[name]);
+            renderEffectPriorityList(savedStrategies[name]);
+            currentStrategy = savedStrategies[name];
+          } else {
+            document.getElementById('strategy-name').value = '';
+            renderStrategyBlocks(null);
+            renderEffectPriorityList(null);
+            currentStrategy = null;
+          }
+        };
+      }, 200);
+    });
+  </script>
+</body>
+</html> 

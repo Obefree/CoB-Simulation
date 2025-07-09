@@ -1,0 +1,50 @@
+{
+  "result": "ok",
+  "stats": {
+    "P1_win": 0,
+    "P2_win": 0,
+    "P1_win_percent": 0.0,
+    "P2_win_percent": 0.0,
+    "avg_turns": 30.0,
+    "avg_hp1": 12.48,
+    "avg_hp2": 22.42,
+    "avg_poison1": 0.0,
+    "avg_poison2": 0.0,
+    "avg_bleed1": 0.0,
+    "avg_bleed2": 0.0,
+    "avg_damage": 55.1,
+    "gear_saved_damage": [
+      0,
+      0
+    ],
+    "trashed_cards": [],
+    "top_cards": [],
+    "gear_absorbed": [
+      [
+        "Priestess",
+        0
+      ]
+    ],
+    "params": {
+      "strategy1": "red",
+      "strategy2": "poison",
+      "hp1": 40,
+      "hp2": 50,
+      "num_games": 1000,
+      "enabled_cards": []
+    },
+    "top_winner_cards": [],
+    "top_loser_cards": [],
+    "avg_winner_hp": 0,
+    "avg_winner_poison": 0,
+    "avg_hp_diff": 0,
+    "spy_discarded": [
+      0,
+      0
+    ],
+    "gear_destroyed": [
+      0,
+      0
+    ]
+  }
+}
