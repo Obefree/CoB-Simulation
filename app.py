@@ -10,8 +10,12 @@ import datetime
 import traceback
 from collections import Counter
 import re # Added for parsing effect strings
-# Укажи путь к своему симулятору!
-sys.path.append(r"C:/Хранилище/Документы/DeckBuild/Cursor/Cob")
+
+# Append path to an external simulator if provided via environment variable
+SIMULATOR_ENV_VAR = "SIMULATOR_PATH"
+simulator_path = os.getenv(SIMULATOR_ENV_VAR)
+if simulator_path:
+    sys.path.append(simulator_path)
 from simulator import simulate_game, Card
 
 app = Flask(__name__)
