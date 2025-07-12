@@ -21,3 +21,11 @@ set SIMULATOR_PATH=C:\path\to\simulator
 
 If the variable is not set, the built-in simulator in this repository is used.
 
+Set `PORT` to specify the port used by the Flask server. By default the
+application runs on port `5002`.
+
+```bash
+# Run server on port 5003
+export PORT=5003
+```
+
