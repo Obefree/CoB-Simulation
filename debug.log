@@ -5657,3 +5657,2412 @@
 [93m[DEBUG] market.trade_row после refill: ['Saint’s Shield(8)', 'Stuning Light(7)', 'Cleave(7)', 'Stuning Light(7)', 'Divine Blade(6)'][0m
 [92m
 === Ход 17 (P1) ===[0m
+[92m
+=== Ход 1 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Prayer', 'Prayer', 'Strike', 'Strike', 'Prayer'], deck=['Prayer', 'Prayer', 'Strike', 'Prayer', 'Prayer'], discard=[][0m
+[92m[PLAYER] P1 (начало): HP=40, Poison=0, Bleed=0[0m
+[92mHand(5): ['Prayer', 'Prayer', 'Strike', 'Strike', 'Prayer'][0m
+[92mDeck(5): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Prayer'][0m
+[92mDiscard(0): [][0m
+[92mTrash(0): [][0m
+[92mHP: 40[0m
+[92mPoison: 0[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Prayer', 'Prayer', 'Strike', 'Strike', 'Prayer'][0m
+[92m         Deck(5): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Prayer'][0m
+[92m         Discard(0): [][0m
+[92m         Gear(0): [][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 3, потрачено: 0[0m
+[93m  Доступные для покупки: ['Breakthrough', 'Heal Bash', 'Roll'][0m
+[93m[DEBUG] market.trade_row после refill: ['Fortress Shield(5)', 'Breakthrough(3)', 'Heal Bash(2)', 'Roll(1)', 'Gloves of Illusion(5)'][0m
+[93m  Куплена карта: Breakthrough[0m
+[93m  Blessing на ход: 3, потрачено: 3[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Fortress Shield(5)', 'Heal Bash(2)', 'Roll(1)', 'Gloves of Illusion(5)', 'Spores(2)'][0m
+[94m
+=== Ход 1 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Prayer', 'Strike', 'Strike', 'Prayer', 'Strike'], deck=['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Prayer'], discard=[][0m
+[94m[PLAYER] P2 (начало): HP=48, Poison=0, Bleed=0[0m
+[94mHand(5): ['Prayer', 'Strike', 'Strike', 'Prayer', 'Strike'][0m
+[94mDeck(5): ['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Prayer'][0m
+[94mDiscard(0): [][0m
+[94mTrash(0): [][0m
+[94mHP: 48[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Prayer', 'Strike', 'Strike', 'Prayer', 'Strike'][0m
+[94m         Deck(5): ['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Prayer'][0m
+[94m         Discard(0): [][0m
+[94m         Gear(0): [][0m
+[94m         Trash(0): [][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[93m  Blessing на ход: 2, потрачено: 0[0m
+[93m  Доступные для покупки: ['Heal Bash', 'Roll', 'Spores'][0m
+[93m[DEBUG] market.trade_row после refill: ['Fortress Shield(5)', 'Heal Bash(2)', 'Roll(1)', 'Gloves of Illusion(5)', 'Spores(2)'][0m
+[93m  Куплена карта: Spores[0m
+[93m  Blessing на ход: 2, потрачено: 2[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Fortress Shield(5)', 'Heal Bash(2)', 'Roll(1)', 'Gloves of Illusion(5)', 'Poisoned Blood(4)'][0m
+[92m
+=== Ход 2 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Prayer', 'Prayer', 'Strike', 'Prayer', 'Prayer'], deck=[], discard=['Prayer', 'Prayer', 'Strike', 'Strike', 'Prayer', 'Breakthrough'][0m
+[92m[PLAYER] P1 (начало): HP=37, Poison=0, Bleed=0[0m
+[92mHand(5): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Prayer'][0m
+[92mDeck(0): [][0m
+[92mDiscard(6): ['Prayer', 'Prayer', 'Strike', 'Strike', 'Prayer', 'Breakthrough'][0m
+[92mTrash(0): [][0m
+[92mHP: 37[0m
+[92mPoison: 0[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Prayer'][0m
+[92m         Deck(0): [][0m
+[92m         Discard(6): ['Prayer', 'Prayer', 'Strike', 'Strike', 'Prayer', 'Breakthrough'][0m
+[92m         Gear(0): [][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: ['Heal Bash', 'Roll', 'Poisoned Blood'][0m
+[93m[DEBUG] market.trade_row после refill: ['Fortress Shield(5)', 'Heal Bash(2)', 'Roll(1)', 'Gloves of Illusion(5)', 'Poisoned Blood(4)'][0m
+[93m  Куплена карта: Heal Bash[0m
+[93m  Blessing на ход: 4, потрачено: 2[0m
+[93m  Доступные для покупки: ['Roll', 'Blade'][0m
+[93m[DEBUG] market.trade_row после refill: ['Fortress Shield(5)', 'Roll(1)', 'Gloves of Illusion(5)', 'Poisoned Blood(4)', 'Blade(1)'][0m
+[93m  Куплена карта: Blade[0m
+[93m  Blessing на ход: 4, потрачено: 3[0m
+[93m  Доступные для покупки: ['Roll'][0m
+[93m[DEBUG] market.trade_row после refill: ['Fortress Shield(5)', 'Roll(1)', 'Gloves of Illusion(5)', 'Poisoned Blood(4)', 'Stuning Light(7)'][0m
+[93m  Куплена карта: Roll[0m
+[93m  Blessing на ход: 4, потрачено: 4[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Fortress Shield(5)', 'Gloves of Illusion(5)', 'Poisoned Blood(4)', 'Stuning Light(7)', 'Saint’s Shield(8)'][0m
+[94m
+=== Ход 2 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Prayer'], deck=[], discard=['Prayer', 'Strike', 'Strike', 'Prayer', 'Strike', 'Spores'][0m
+[94m[PLAYER] P2 (начало): HP=47, Poison=0, Bleed=0[0m
+[94mHand(5): ['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Prayer'][0m
+[94mDeck(0): [][0m
+[94mDiscard(6): ['Prayer', 'Strike', 'Strike', 'Prayer', 'Strike', 'Spores'][0m
+[94mTrash(0): [][0m
+[94mHP: 47[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Prayer'][0m
+[94m         Deck(0): [][0m
+[94m         Discard(6): ['Prayer', 'Strike', 'Strike', 'Prayer', 'Strike', 'Spores'][0m
+[94m         Gear(0): [][0m
+[94m         Trash(0): [][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 5, потрачено: 0[0m
+[93m  Доступные для покупки: ['Fortress Shield', 'Gloves of Illusion', 'Poisoned Blood'][0m
+[93m[DEBUG] market.trade_row после refill: ['Fortress Shield(5)', 'Gloves of Illusion(5)', 'Poisoned Blood(4)', 'Stuning Light(7)', 'Saint’s Shield(8)'][0m
+[93m  Куплена карта: Fortress Shield[0m
+[93m  Blessing на ход: 5, потрачено: 5[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Poisoned Blood(4)', 'Stuning Light(7)', 'Saint’s Shield(8)', 'Disarm(5)'][0m
+[92m
+=== Ход 3 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Prayer', 'Blade', 'Breakthrough', 'Strike', 'Roll'], deck=['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Prayer', 'Prayer', 'Heal Bash', 'Prayer'], discard=[][0m
+[92m[PLAYER] P1 (начало): HP=37, Poison=0, Bleed=0[0m
+[92mHand(5): ['Prayer', 'Blade', 'Breakthrough', 'Strike', 'Roll'][0m
+[92mDeck(9): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Prayer', 'Prayer', 'Heal Bash', 'Prayer'][0m
+[92mDiscard(0): [][0m
+[92mTrash(0): [][0m
+[92mHP: 37[0m
+[92mPoison: 0[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Prayer', 'Blade', 'Breakthrough', 'Strike', 'Roll'][0m
+[92m         Deck(9): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Prayer', 'Prayer', 'Heal Bash', 'Prayer'][0m
+[92m         Discard(0): [][0m
+[92m         Gear(0): [][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Blade: effect1='{Blessing 1}{Bleed 1}{Damage 1}' -> [('blessing', '1'), ('bleed', '1'), ('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Blade: effect2='{R_chain}{Damage 2}' -> [('r_chain', None), ('damage', '2')][0m
+[92m[DEBUG] Разыгрывается Blade: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Blade: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Blade, эффекты к применению: [('blessing', '1'), ('bleed', '1'), ('damage', '1'), ('r_chain', None), ('damage', '2')][0m
+[92m[DEBUG] Разыгрывается Breakthrough: effect1='{Damage 3}{Stun 1}' -> [('damage', '3'), ('stun', '1')][0m
+[92m[DEBUG] Разыгрывается Breakthrough: effect2='{B_chain}{Destroy}' -> [('b_chain', None), ('destroy', None)][0m
+[92m[DEBUG] Разыгрывается Breakthrough: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Breakthrough: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Breakthrough, эффекты к применению: [('damage', '3'), ('stun', '1'), ('b_chain', None), ('destroy', None)][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Roll: effect1='{Blessing 2}{Heal 3}' -> [('blessing', '2'), ('heal', '3')][0m
+[92m[DEBUG] Разыгрывается Roll: effect2='{W_chain}{Draw 1}' -> [('w_chain', None), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Roll: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Roll: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Roll, эффекты к применению: [('blessing', '2'), ('heal', '3'), ('w_chain', None), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: ['Poisoned Blood'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Poisoned Blood(4)', 'Stuning Light(7)', 'Saint’s Shield(8)', 'Disarm(5)'][0m
+[93m  Куплена карта: Poisoned Blood[0m
+[93m  Blessing на ход: 4, потрачено: 4[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Stuning Light(7)', 'Saint’s Shield(8)', 'Disarm(5)', 'Desperate Thrust(3)'][0m
+[94m
+=== Ход 3 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Fortress Shield', 'Prayer', 'Strike', 'Prayer'], deck=['Spores', 'Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Prayer'], discard=['Strike'][0m
+[94m[PLAYER] P2 (начало): HP=39, Poison=0, Bleed=0[0m
+[94mHand(4): ['Fortress Shield', 'Prayer', 'Strike', 'Prayer'][0m
+[94mDeck(7): ['Spores', 'Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Prayer'][0m
+[94mDiscard(1): ['Strike'][0m
+[94mTrash(0): [][0m
+[94mHP: 39[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(4): ['Fortress Shield', 'Prayer', 'Strike', 'Prayer'][0m
+[94m         Deck(7): ['Spores', 'Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Prayer'][0m
+[94m         Discard(1): ['Strike'][0m
+[94m         Gear(0): [][0m
+[94m         Trash(0): [][0m
+[94m[DEBUG] Разыгрывается Fortress Shield: effect1='If DesrtoyedTO{Bleed 2}' -> [[], [('bleed', '2')]][0m
+[94m[DEBUG] Разыгрывается Fortress Shield: effect2='{W_chain}{Draw 1}' -> [('w_chain', None), ('draw', '1')][0m
+[94m[DEBUG] Разыгрывается Fortress Shield: effect1text='{Def_Y_Text 6}' -> [('def_y_text', '6')][0m
+[94m[DEBUG] Разыгрывается Fortress Shield: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Fortress Shield, эффекты к применению: [[], [('bleed', '2')], ('w_chain', None), ('draw', '1'), ('def_y_text', '6')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 2, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Stuning Light(7)', 'Saint’s Shield(8)', 'Disarm(5)', 'Desperate Thrust(3)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[92m
+=== Ход 4 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Heal Bash', 'Prayer', 'Prayer', 'Strike', 'Prayer'], deck=['Prayer', 'Prayer', 'Strike'], discard=['Prayer', 'Blade', 'Breakthrough', 'Strike', 'Roll', 'Prayer', 'Poisoned Blood'][0m
+[92m[PLAYER] P1 (начало): HP=39, Poison=0, Bleed=0[0m
+[92mHand(5): ['Heal Bash', 'Prayer', 'Prayer', 'Strike', 'Prayer'][0m
+[92mDeck(3): ['Prayer', 'Prayer', 'Strike'][0m
+[92mDiscard(7): ['Prayer', 'Blade', 'Breakthrough', 'Strike', 'Roll', 'Prayer', 'Poisoned Blood'][0m
+[92mTrash(0): [][0m
+[92mHP: 39[0m
+[92mPoison: 0[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Heal Bash', 'Prayer', 'Prayer', 'Strike', 'Prayer'][0m
+[92m         Deck(3): ['Prayer', 'Prayer', 'Strike'][0m
+[92m         Discard(7): ['Prayer', 'Blade', 'Breakthrough', 'Strike', 'Roll', 'Prayer', 'Poisoned Blood'][0m
+[92m         Gear(0): [][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect1='{Heal 3}{Blessing 2}' -> [('heal', '3'), ('blessing', '2')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect2='{W_chain}{Damage 4}' -> [('w_chain', None), ('damage', '4')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Heal Bash, эффекты к применению: [('heal', '3'), ('blessing', '2'), ('w_chain', None), ('damage', '4')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 5, потрачено: 0[0m
+[93m  Доступные для покупки: ['Gloves of Illusion', 'Disarm', 'Desperate Thrust'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Stuning Light(7)', 'Saint’s Shield(8)', 'Disarm(5)', 'Desperate Thrust(3)'][0m
+[93m  Куплена карта: Disarm[0m
+[93m  Blessing на ход: 5, потрачено: 5[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Stuning Light(7)', 'Saint’s Shield(8)', 'Desperate Thrust(3)', 'Battle Rhythm(1)'][0m
+[94m
+=== Ход 4 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Strike'], deck=['Spores'], discard=['Strike', 'Prayer', 'Strike', 'Prayer', 'Priestess', 'Prayer'][0m
+[94m[PLAYER] P2 (начало): HP=39, Poison=0, Bleed=0[0m
+[94mHand(5): ['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Strike'][0m
+[94mDeck(1): ['Spores'][0m
+[94mDiscard(6): ['Strike', 'Prayer', 'Strike', 'Prayer', 'Priestess', 'Prayer'][0m
+[94mTrash(0): [][0m
+[94mHP: 39[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Strike'][0m
+[94m         Deck(1): ['Spores'][0m
+[94m         Discard(6): ['Strike', 'Prayer', 'Strike', 'Prayer', 'Priestess', 'Prayer'][0m
+[94m         Gear(1): ['Fortress Shield'][0m
+[94m         Trash(0): [][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: ['Desperate Thrust', 'Battle Rhythm'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Stuning Light(7)', 'Saint’s Shield(8)', 'Desperate Thrust(3)', 'Battle Rhythm(1)'][0m
+[93m  Куплена карта: Battle Rhythm[0m
+[93m  Blessing на ход: 4, потрачено: 1[0m
+[93m  Доступные для покупки: ['Desperate Thrust', 'Readiness'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Stuning Light(7)', 'Saint’s Shield(8)', 'Desperate Thrust(3)', 'Readiness(3)'][0m
+[93m  Куплена карта: Desperate Thrust[0m
+[93m  Blessing на ход: 4, потрачено: 4[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Stuning Light(7)', 'Saint’s Shield(8)', 'Readiness(3)', 'Runeward Circlet(4)'][0m
+[92m
+=== Ход 5 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer'], deck=['Prayer', 'Blade', 'Prayer', 'Heal Bash', 'Strike', 'Prayer', 'Breakthrough', 'Roll', 'Disarm', 'Poisoned Blood', 'Strike'], discard=[][0m
+[92m[PLAYER] P1 (начало): HP=41, Poison=0, Bleed=0[0m
+[92mHand(5): ['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer'][0m
+[92mDeck(11): ['Prayer', 'Blade', 'Prayer', 'Heal Bash', 'Strike', 'Prayer', 'Breakthrough', 'Roll', 'Disarm', 'Poisoned Blood', 'Strike'][0m
+[92mDiscard(0): [][0m
+[92mTrash(0): [][0m
+[92mHP: 41[0m
+[92mPoison: 0[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer'][0m
+[92m         Deck(11): ['Prayer', 'Blade', 'Prayer', 'Heal Bash', 'Strike', 'Prayer', 'Breakthrough', 'Roll', 'Disarm', 'Poisoned Blood', 'Strike'][0m
+[92m         Discard(0): [][0m
+[92m         Gear(0): [][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: ['Readiness', 'Runeward Circlet'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Stuning Light(7)', 'Saint’s Shield(8)', 'Readiness(3)', 'Runeward Circlet(4)'][0m
+[93m  Куплена карта: Runeward Circlet[0m
+[93m  Blessing на ход: 4, потрачено: 4[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Stuning Light(7)', 'Saint’s Shield(8)', 'Readiness(3)', 'Unbreakable(1)'][0m
+[94m
+=== Ход 5 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Spores', 'Prayer', 'Prayer', 'Priestess', 'Prayer'], deck=['Prayer', 'Battle Rhythm', 'Prayer', 'Strike', 'Prayer', 'Desperate Thrust', 'Strike', 'Prayer', 'Strike'], discard=[][0m
+[94m[PLAYER] P2 (начало): HP=39, Poison=0, Bleed=0[0m
+[94mHand(5): ['Spores', 'Prayer', 'Prayer', 'Priestess', 'Prayer'][0m
+[94mDeck(9): ['Prayer', 'Battle Rhythm', 'Prayer', 'Strike', 'Prayer', 'Desperate Thrust', 'Strike', 'Prayer', 'Strike'][0m
+[94mDiscard(0): [][0m
+[94mTrash(0): [][0m
+[94mHP: 39[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Spores', 'Prayer', 'Prayer', 'Priestess', 'Prayer'][0m
+[94m         Deck(9): ['Prayer', 'Battle Rhythm', 'Prayer', 'Strike', 'Prayer', 'Desperate Thrust', 'Strike', 'Prayer', 'Strike'][0m
+[94m         Discard(0): [][0m
+[94m         Gear(1): ['Fortress Shield'][0m
+[94m         Trash(0): [][0m
+[94m[DEBUG] Разыгрывается Spores: effect1='{Blessing 2}{Trash 1}' -> [('blessing', '2'), ('trash', '1')][0m
+[94m[DEBUG] Разыгрывается Spores: effect2='{G_chain}{Damage 2}{Draw 1}' -> [('g_chain', None), ('damage', '2'), ('draw', '1')][0m
+[94m[DEBUG] Разыгрывается Spores: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Spores: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Spores, эффекты к применению: [('blessing', '2'), ('trash', '1'), ('g_chain', None), ('damage', '2'), ('draw', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Priestess: effect1='{Blessing 2}' -> [('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Priestess: effect2='{Trash_this}TO{Damage 2}{Discard Monster}' -> [[('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[94m[DEBUG] Разыгрывается карта Priestess, эффекты к применению: [('blessing', '2'), [('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[93m  Blessing на ход: 7, потрачено: 0[0m
+[93m  Доступные для покупки: ['Gloves of Illusion', 'Stuning Light', 'Readiness', 'Unbreakable'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Stuning Light(7)', 'Saint’s Shield(8)', 'Readiness(3)', 'Unbreakable(1)'][0m
+[93m  Куплена карта: Stuning Light[0m
+[93m  Blessing на ход: 7, потрачено: 7[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Readiness(3)', 'Unbreakable(1)', 'Poisonous Sting(3)'][0m
+[92m
+=== Ход 6 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Strike', 'Poisoned Blood', 'Disarm', 'Roll', 'Breakthrough'], deck=['Prayer', 'Blade', 'Prayer', 'Heal Bash', 'Strike', 'Prayer'], discard=['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Runeward Circlet'][0m
+[92m[PLAYER] P1 (начало): HP=38, Poison=0, Bleed=0[0m
+[92mHand(5): ['Strike', 'Poisoned Blood', 'Disarm', 'Roll', 'Breakthrough'][0m
+[92mDeck(6): ['Prayer', 'Blade', 'Prayer', 'Heal Bash', 'Strike', 'Prayer'][0m
+[92mDiscard(6): ['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Runeward Circlet'][0m
+[92mTrash(0): [][0m
+[92mHP: 38[0m
+[92mPoison: 0[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Strike', 'Poisoned Blood', 'Disarm', 'Roll', 'Breakthrough'][0m
+[92m         Deck(6): ['Prayer', 'Blade', 'Prayer', 'Heal Bash', 'Strike', 'Prayer'][0m
+[92m         Discard(6): ['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Runeward Circlet'][0m
+[92m         Gear(0): [][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Poisoned Blood: effect1='{Blessing 2}{Poison 2}' -> [('blessing', '2'), ('poison', '2')][0m
+[92m[DEBUG] Разыгрывается Poisoned Blood: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается Poisoned Blood: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Poisoned Blood: effect2text='{Trash_this}TOAcquire a Gear card for free' -> [[('trash_this', None)], []][0m
+[92m[DEBUG] Разыгрывается карта Poisoned Blood, эффекты к применению: [('blessing', '2'), ('poison', '2'), [('trash_this', None)], []][0m
+[92m[DEBUG] Разыгрывается Disarm: effect1='{Damage 6}{Stun 1}' -> [('damage', '6'), ('stun', '1')][0m
+[92m[DEBUG] Разыгрывается Disarm: effect2='{B_chain}{Steal 1}' -> [('b_chain', None), ('steal', '1')][0m
+[92m[DEBUG] Разыгрывается Disarm: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Disarm: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Disarm, эффекты к применению: [('damage', '6'), ('stun', '1'), ('b_chain', None), ('steal', '1')][0m
+[92m[DEBUG] Разыгрывается Roll: effect1='{Blessing 2}{Heal 3}' -> [('blessing', '2'), ('heal', '3')][0m
+[92m[DEBUG] Разыгрывается Roll: effect2='{W_chain}{Draw 1}' -> [('w_chain', None), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Roll: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Roll: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Roll, эффекты к применению: [('blessing', '2'), ('heal', '3'), ('w_chain', None), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Breakthrough: effect1='{Damage 3}{Stun 1}' -> [('damage', '3'), ('stun', '1')][0m
+[92m[DEBUG] Разыгрывается Breakthrough: effect2='{B_chain}{Destroy}' -> [('b_chain', None), ('destroy', None)][0m
+[92m[DEBUG] Разыгрывается Breakthrough: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Breakthrough: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Breakthrough, эффекты к применению: [('damage', '3'), ('stun', '1'), ('b_chain', None), ('destroy', None)][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: ['Readiness', 'Unbreakable', 'Poisonous Sting'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Readiness(3)', 'Unbreakable(1)', 'Poisonous Sting(3)'][0m
+[93m  Куплена карта: Poisonous Sting[0m
+[93m  Blessing на ход: 4, потрачено: 3[0m
+[93m  Доступные для покупки: ['Unbreakable'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Readiness(3)', 'Unbreakable(1)', 'Stuning Light(7)'][0m
+[93m  Куплена карта: Unbreakable[0m
+[93m  Blessing на ход: 4, потрачено: 4[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Readiness(3)', 'Stuning Light(7)', 'Shock(3)'][0m
+[94m
+=== Ход 6 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Desperate Thrust', 'Prayer', 'Strike'], deck=['Prayer', 'Battle Rhythm'], discard=['Spores', 'Prayer', 'Prayer', 'Strike', 'Stuning Light', 'Fortress Shield', 'Prayer', 'Strike'][0m
+[94m[PLAYER] P2 (начало): HP=35, Poison=2, Bleed=0[0m
+[94mHand(3): ['Desperate Thrust', 'Prayer', 'Strike'][0m
+[94mDeck(2): ['Prayer', 'Battle Rhythm'][0m
+[94mDiscard(8): ['Spores', 'Prayer', 'Prayer', 'Strike', 'Stuning Light', 'Fortress Shield', 'Prayer', 'Strike'][0m
+[94mTrash(2): ['Prayer', 'Priestess'][0m
+[94mHP: 35[0m
+[94mPoison: 2[0m
+[94mBleed: 0[0m
+[94m         Hand(3): ['Desperate Thrust', 'Prayer', 'Strike'][0m
+[94m         Deck(2): ['Prayer', 'Battle Rhythm'][0m
+[94m         Discard(8): ['Spores', 'Prayer', 'Prayer', 'Strike', 'Stuning Light', 'Fortress Shield', 'Prayer', 'Strike'][0m
+[94m         Gear(0): [][0m
+[94m         Trash(2): ['Prayer', 'Priestess'][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect1='{Bleed 2}{Damage 3}' -> [('bleed', '2'), ('damage', '3')][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect2text='If you have Bleed TO{Damage 2}' -> [[], [('damage', '2')]][0m
+[94m[DEBUG] Разыгрывается карта Desperate Thrust, эффекты к применению: [('bleed', '2'), ('damage', '3'), [], [('damage', '2')]][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[93m  Blessing на ход: 1, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Readiness(3)', 'Stuning Light(7)', 'Shock(3)'][0m
+[92m
+=== Ход 7 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Strike', 'Heal Bash', 'Prayer', 'Blade', 'Prayer'], deck=[], discard=['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Runeward Circlet', 'Strike', 'Poisoned Blood', 'Prayer', 'Disarm', 'Roll', 'Breakthrough', 'Prayer', 'Poisonous Sting', 'Unbreakable'][0m
+[92m[PLAYER] P1 (начало): HP=35, Poison=0, Bleed=1[0m
+[92mHand(5): ['Strike', 'Heal Bash', 'Prayer', 'Blade', 'Prayer'][0m
+[92mDeck(0): [][0m
+[92mDiscard(15): ['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Runeward Circlet', 'Strike', 'Poisoned Blood', 'Prayer', 'Disarm', 'Roll', 'Breakthrough', 'Prayer', 'Poisonous Sting', 'Unbreakable'][0m
+[92mTrash(0): [][0m
+[92mHP: 35[0m
+[92mPoison: 0[0m
+[92mBleed: 1[0m
+[92m         Hand(5): ['Strike', 'Heal Bash', 'Prayer', 'Blade', 'Prayer'][0m
+[92m         Deck(0): [][0m
+[92m         Discard(15): ['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Runeward Circlet', 'Strike', 'Poisoned Blood', 'Prayer', 'Disarm', 'Roll', 'Breakthrough', 'Prayer', 'Poisonous Sting', 'Unbreakable'][0m
+[92m         Gear(0): [][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect1='{Heal 3}{Blessing 2}' -> [('heal', '3'), ('blessing', '2')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect2='{W_chain}{Damage 4}' -> [('w_chain', None), ('damage', '4')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Heal Bash, эффекты к применению: [('heal', '3'), ('blessing', '2'), ('w_chain', None), ('damage', '4')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Blade: effect1='{Blessing 1}{Bleed 1}{Damage 1}' -> [('blessing', '1'), ('bleed', '1'), ('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Blade: effect2='{R_chain}{Damage 2}' -> [('r_chain', None), ('damage', '2')][0m
+[92m[DEBUG] Разыгрывается Blade: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Blade: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Blade, эффекты к применению: [('blessing', '1'), ('bleed', '1'), ('damage', '1'), ('r_chain', None), ('damage', '2')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 5, потрачено: 0[0m
+[93m  Доступные для покупки: ['Gloves of Illusion', 'Readiness', 'Shock'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Readiness(3)', 'Stuning Light(7)', 'Shock(3)'][0m
+[93m  Куплена карта: Readiness[0m
+[93m  Blessing на ход: 5, потрачено: 3[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Shock(3)', 'Insight(3)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[94m
+=== Ход 7 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Battle Rhythm', 'Prayer', 'Strike', 'Prayer', 'Strike'], deck=['Prayer', 'Spores', 'Fortress Shield', 'Prayer', 'Prayer', 'Desperate Thrust', 'Stuning Light', 'Strike'], discard=[][0m
+[94m[PLAYER] P2 (начало): HP=26, Poison=2, Bleed=0[0m
+[94mHand(5): ['Battle Rhythm', 'Prayer', 'Strike', 'Prayer', 'Strike'][0m
+[94mDeck(8): ['Prayer', 'Spores', 'Fortress Shield', 'Prayer', 'Prayer', 'Desperate Thrust', 'Stuning Light', 'Strike'][0m
+[94mDiscard(0): [][0m
+[94mTrash(2): ['Prayer', 'Priestess'][0m
+[94mHP: 26[0m
+[94mPoison: 2[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Battle Rhythm', 'Prayer', 'Strike', 'Prayer', 'Strike'][0m
+[94m         Deck(8): ['Prayer', 'Spores', 'Fortress Shield', 'Prayer', 'Prayer', 'Desperate Thrust', 'Stuning Light', 'Strike'][0m
+[94m         Discard(0): [][0m
+[94m         Gear(0): [][0m
+[94m         Trash(2): ['Prayer', 'Priestess'][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect1='{Stun 1}{Damage 2}' -> [('stun', '1'), ('damage', '2')][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect2='This turn your cards have Chain with the cards in the Trade Row' -> [][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Battle Rhythm, эффекты к применению: [('stun', '1'), ('damage', '2')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[93m  Blessing на ход: 2, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Shock(3)', 'Insight(3)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[92m
+=== Ход 8 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Prayer', 'Prayer', 'Prayer', 'Unbreakable'], deck=['Poisoned Blood', 'Prayer', 'Strike', 'Prayer', 'Roll', 'Strike', 'Blade', 'Runeward Circlet', 'Prayer', 'Prayer', 'Poisonous Sting', 'Disarm', 'Readiness', 'Strike', 'Priestess', 'Heal Bash', 'Breakthrough'], discard=['Prayer'][0m
+[92m[PLAYER] P1 (начало): HP=33, Poison=0, Bleed=0[0m
+[92mHand(4): ['Prayer', 'Prayer', 'Prayer', 'Unbreakable'][0m
+[92mDeck(17): ['Poisoned Blood', 'Prayer', 'Strike', 'Prayer', 'Roll', 'Strike', 'Blade', 'Runeward Circlet', 'Prayer', 'Prayer', 'Poisonous Sting', 'Disarm', 'Readiness', 'Strike', 'Priestess', 'Heal Bash', 'Breakthrough'][0m
+[92mDiscard(1): ['Prayer'][0m
+[92mTrash(0): [][0m
+[92mHP: 33[0m
+[92mPoison: 0[0m
+[92mBleed: 0[0m
+[92m         Hand(4): ['Prayer', 'Prayer', 'Prayer', 'Unbreakable'][0m
+[92m         Deck(17): ['Poisoned Blood', 'Prayer', 'Strike', 'Prayer', 'Roll', 'Strike', 'Blade', 'Runeward Circlet', 'Prayer', 'Prayer', 'Poisonous Sting', 'Disarm', 'Readiness', 'Strike', 'Priestess', 'Heal Bash', 'Breakthrough'][0m
+[92m         Discard(1): ['Prayer'][0m
+[92m         Gear(0): [][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Unbreakable: effect1='{Heal 2}{Blessing 2}' -> [('heal', '2'), ('blessing', '2')][0m
+[92m[DEBUG] Разыгрывается Unbreakable: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается Unbreakable: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Unbreakable: effect2text='{Trash_this}TO{Heal_bleed 3}{Heal_poison 3}' -> [[('trash_this', None)], [('heal_bleed', '3'), ('heal_poison', '3')]][0m
+[92m[DEBUG] Разыгрывается карта Unbreakable, эффекты к применению: [('heal', '2'), ('blessing', '2'), [('trash_this', None)], [('heal_bleed', '3'), ('heal_poison', '3')]][0m
+[93m  Blessing на ход: 5, потрачено: 0[0m
+[93m  Доступные для покупки: ['Gloves of Illusion', 'Shock', 'Insight'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Shock(3)', 'Insight(3)'][0m
+[93m  Куплена карта: Shock[0m
+[93m  Blessing на ход: 5, потрачено: 3[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Insight(3)', 'Omnipresent Step Boots(4)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[94m
+=== Ход 8 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Strike', 'Stuning Light', 'Desperate Thrust', 'Prayer', 'Prayer'], deck=['Prayer', 'Spores', 'Fortress Shield'], discard=['Battle Rhythm', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Priestess'][0m
+[94m[PLAYER] P2 (начало): HP=26, Poison=2, Bleed=0[0m
+[94mHand(5): ['Strike', 'Stuning Light', 'Desperate Thrust', 'Prayer', 'Prayer'][0m
+[94mDeck(3): ['Prayer', 'Spores', 'Fortress Shield'][0m
+[94mDiscard(6): ['Battle Rhythm', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Priestess'][0m
+[94mTrash(2): ['Prayer', 'Priestess'][0m
+[94mHP: 26[0m
+[94mPoison: 2[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Strike', 'Stuning Light', 'Desperate Thrust', 'Prayer', 'Prayer'][0m
+[94m         Deck(3): ['Prayer', 'Spores', 'Fortress Shield'][0m
+[94m         Discard(6): ['Battle Rhythm', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Priestess'][0m
+[94m         Gear(0): [][0m
+[94m         Trash(2): ['Prayer', 'Priestess'][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Stuning Light: effect1='{Damage 7}{Stun 1}{Draw 1}' -> [('damage', '7'), ('stun', '1'), ('draw', '1')][0m
+[94m[DEBUG] Разыгрывается Stuning Light: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Stuning Light: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Stuning Light: effect2text='{B_chain}{Stun 1}{Destroy}' -> [('b_chain', None), ('stun', '1'), ('destroy', None)][0m
+[94m[DEBUG] Разыгрывается карта Stuning Light, эффекты к применению: [('damage', '7'), ('stun', '1'), ('draw', '1'), ('b_chain', None), ('stun', '1'), ('destroy', None)][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect1='{Bleed 2}{Damage 3}' -> [('bleed', '2'), ('damage', '3')][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect2text='If you have Bleed TO{Damage 2}' -> [[], [('damage', '2')]][0m
+[94m[DEBUG] Разыгрывается карта Desperate Thrust, эффекты к применению: [('bleed', '2'), ('damage', '3'), [], [('damage', '2')]][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Fortress Shield: effect1='If DesrtoyedTO{Bleed 2}' -> [[], [('bleed', '2')]][0m
+[94m[DEBUG] Разыгрывается Fortress Shield: effect2='{W_chain}{Draw 1}' -> [('w_chain', None), ('draw', '1')][0m
+[94m[DEBUG] Разыгрывается Fortress Shield: effect1text='{Def_Y_Text 6}' -> [('def_y_text', '6')][0m
+[94m[DEBUG] Разыгрывается Fortress Shield: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Fortress Shield, эффекты к применению: [[], [('bleed', '2')], ('w_chain', None), ('draw', '1'), ('def_y_text', '6')][0m
+[93m  Blessing на ход: 2, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Insight(3)', 'Omnipresent Step Boots(4)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[92m
+=== Ход 9 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Breakthrough', 'Heal Bash', 'Priestess', 'Readiness'], deck=['Poisoned Blood', 'Prayer', 'Strike', 'Prayer', 'Roll', 'Strike', 'Blade', 'Runeward Circlet', 'Prayer', 'Prayer', 'Poisonous Sting', 'Disarm'], discard=['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Unbreakable', 'Shock', 'Priestess', 'Strike'][0m
+[92m[PLAYER] P1 (начало): HP=22, Poison=0, Bleed=1[0m
+[92mHand(4): ['Breakthrough', 'Heal Bash', 'Priestess', 'Readiness'][0m
+[92mDeck(12): ['Poisoned Blood', 'Prayer', 'Strike', 'Prayer', 'Roll', 'Strike', 'Blade', 'Runeward Circlet', 'Prayer', 'Prayer', 'Poisonous Sting', 'Disarm'][0m
+[92mDiscard(8): ['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Unbreakable', 'Shock', 'Priestess', 'Strike'][0m
+[92mTrash(0): [][0m
+[92mHP: 22[0m
+[92mPoison: 0[0m
+[92mBleed: 1[0m
+[92m         Hand(4): ['Breakthrough', 'Heal Bash', 'Priestess', 'Readiness'][0m
+[92m         Deck(12): ['Poisoned Blood', 'Prayer', 'Strike', 'Prayer', 'Roll', 'Strike', 'Blade', 'Runeward Circlet', 'Prayer', 'Prayer', 'Poisonous Sting', 'Disarm'][0m
+[92m         Discard(8): ['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Unbreakable', 'Shock', 'Priestess', 'Strike'][0m
+[92m         Gear(0): [][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Breakthrough: effect1='{Damage 3}{Stun 1}' -> [('damage', '3'), ('stun', '1')][0m
+[92m[DEBUG] Разыгрывается Breakthrough: effect2='{B_chain}{Destroy}' -> [('b_chain', None), ('destroy', None)][0m
+[92m[DEBUG] Разыгрывается Breakthrough: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Breakthrough: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Breakthrough, эффекты к применению: [('damage', '3'), ('stun', '1'), ('b_chain', None), ('destroy', None)][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect1='{Heal 3}{Blessing 2}' -> [('heal', '3'), ('blessing', '2')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect2='{W_chain}{Damage 4}' -> [('w_chain', None), ('damage', '4')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Heal Bash, эффекты к применению: [('heal', '3'), ('blessing', '2'), ('w_chain', None), ('damage', '4')][0m
+[92m[DEBUG] Разыгрывается Priestess: effect1='{Blessing 2}' -> [('blessing', '2')][0m
+[92m[DEBUG] Разыгрывается Priestess: effect2='{Trash_this}TO{Damage 2}{Discard Monster}' -> [[('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[92m[DEBUG] Разыгрывается карта Priestess, эффекты к применению: [('blessing', '2'), [('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1='{Heal 4}OR{Heal_bleed 2}or{Heal_poison 2}' -> [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')]][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2='{W_chain}{Ready 1}' -> [('w_chain', None), ('ready', '1')][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Readiness, эффекты к применению: [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')], ('w_chain', None), ('ready', '1')][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: ['Insight', 'Omnipresent Step Boots'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Insight(3)', 'Omnipresent Step Boots(4)'][0m
+[93m  Куплена карта: Insight[0m
+[93m  Blessing на ход: 4, потрачено: 3[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Omnipresent Step Boots(4)', 'Spores(2)'][0m
+[94m
+=== Ход 9 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Battle Rhythm', 'Strike', 'Priestess', 'Spores'], deck=['Strike', 'Prayer', 'Prayer', 'Stuning Light', 'Prayer', 'Strike', 'Priestess', 'Desperate Thrust', 'Prayer'], discard=['Prayer'][0m
+[94m[PLAYER] P2 (начало): HP=22, Poison=2, Bleed=0[0m
+[94mHand(4): ['Battle Rhythm', 'Strike', 'Priestess', 'Spores'][0m
+[94mDeck(9): ['Strike', 'Prayer', 'Prayer', 'Stuning Light', 'Prayer', 'Strike', 'Priestess', 'Desperate Thrust', 'Prayer'][0m
+[94mDiscard(1): ['Prayer'][0m
+[94mTrash(2): ['Prayer', 'Priestess'][0m
+[94mHP: 22[0m
+[94mPoison: 2[0m
+[94mBleed: 0[0m
+[94m         Hand(4): ['Battle Rhythm', 'Strike', 'Priestess', 'Spores'][0m
+[94m         Deck(9): ['Strike', 'Prayer', 'Prayer', 'Stuning Light', 'Prayer', 'Strike', 'Priestess', 'Desperate Thrust', 'Prayer'][0m
+[94m         Discard(1): ['Prayer'][0m
+[94m         Gear(0): [][0m
+[94m         Trash(2): ['Prayer', 'Priestess'][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect1='{Stun 1}{Damage 2}' -> [('stun', '1'), ('damage', '2')][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect2='This turn your cards have Chain with the cards in the Trade Row' -> [][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Battle Rhythm, эффекты к применению: [('stun', '1'), ('damage', '2')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Priestess: effect1='{Blessing 2}' -> [('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Priestess: effect2='{Trash_this}TO{Damage 2}{Discard Monster}' -> [[('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[94m[DEBUG] Разыгрывается карта Priestess, эффекты к применению: [('blessing', '2'), [('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[94m[DEBUG] Разыгрывается Spores: effect1='{Blessing 2}{Trash 1}' -> [('blessing', '2'), ('trash', '1')][0m
+[94m[DEBUG] Разыгрывается Spores: effect2='{G_chain}{Damage 2}{Draw 1}' -> [('g_chain', None), ('damage', '2'), ('draw', '1')][0m
+[94m[DEBUG] Разыгрывается Spores: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Spores: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Spores, эффекты к применению: [('blessing', '2'), ('trash', '1'), ('g_chain', None), ('damage', '2'), ('draw', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: ['Omnipresent Step Boots', 'Spores'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Omnipresent Step Boots(4)', 'Spores(2)'][0m
+[93m  Куплена карта: Spores[0m
+[93m  Blessing на ход: 4, потрачено: 2[0m
+[93m  Доступные для покупки: ['Quick Response'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Omnipresent Step Boots(4)', 'Quick Response(2)'][0m
+[93m  Куплена карта: Quick Response[0m
+[93m  Blessing на ход: 4, потрачено: 4[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Omnipresent Step Boots(4)', 'Plague(6)'][0m
+[92m
+=== Ход 10 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Disarm', 'Poisonous Sting', 'Prayer', 'Runeward Circlet'], deck=['Poisoned Blood', 'Prayer', 'Strike', 'Prayer', 'Roll', 'Strike', 'Blade'], discard=['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Unbreakable', 'Shock', 'Priestess', 'Strike', 'Breakthrough', 'Heal Bash', 'Readiness', 'Insight', 'Prayer'][0m
+[92m[PLAYER] P1 (начало): HP=19, Poison=0, Bleed=0[0m
+[92mHand(4): ['Disarm', 'Poisonous Sting', 'Prayer', 'Runeward Circlet'][0m
+[92mDeck(7): ['Poisoned Blood', 'Prayer', 'Strike', 'Prayer', 'Roll', 'Strike', 'Blade'][0m
+[92mDiscard(13): ['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Unbreakable', 'Shock', 'Priestess', 'Strike', 'Breakthrough', 'Heal Bash', 'Readiness', 'Insight', 'Prayer'][0m
+[92mTrash(1): ['Priestess'][0m
+[92mHP: 19[0m
+[92mPoison: 0[0m
+[92mBleed: 0[0m
+[92m         Hand(4): ['Disarm', 'Poisonous Sting', 'Prayer', 'Runeward Circlet'][0m
+[92m         Deck(7): ['Poisoned Blood', 'Prayer', 'Strike', 'Prayer', 'Roll', 'Strike', 'Blade'][0m
+[92m         Discard(13): ['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Unbreakable', 'Shock', 'Priestess', 'Strike', 'Breakthrough', 'Heal Bash', 'Readiness', 'Insight', 'Prayer'][0m
+[92m         Gear(0): [][0m
+[92m         Trash(1): ['Priestess'][0m
+[92m[DEBUG] Разыгрывается Disarm: effect1='{Damage 6}{Stun 1}' -> [('damage', '6'), ('stun', '1')][0m
+[92m[DEBUG] Разыгрывается Disarm: effect2='{B_chain}{Steal 1}' -> [('b_chain', None), ('steal', '1')][0m
+[92m[DEBUG] Разыгрывается Disarm: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Disarm: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Disarm, эффекты к применению: [('damage', '6'), ('stun', '1'), ('b_chain', None), ('steal', '1')][0m
+[92m[DEBUG] Разыгрывается Poisonous Sting: effect1='{Poison 2}' -> [('poison', '2')][0m
+[92m[DEBUG] Разыгрывается Poisonous Sting: effect2='{If_discarded}{Poison 3}' -> [('if_discarded', None), ('poison', '3')][0m
+[92m[DEBUG] Разыгрывается Poisonous Sting: effect1text='{Def_N_Text 3}' -> [('def_n_text', '3')][0m
+[92m[DEBUG] Разыгрывается Poisonous Sting: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Poisonous Sting, эффекты к применению: [('poison', '2'), ('if_discarded', None), ('poison', '3'), ('def_n_text', '3')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Runeward Circlet: effect1='{Blessing 2} or {Draw 1}' -> [('blessing', '2'), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Runeward Circlet: effect2='{G_chain}{Trash 1}' -> [('g_chain', None), ('trash', '1')][0m
+[92m[DEBUG] Разыгрывается Runeward Circlet: effect1text='{Def_Y_Text 4}' -> [('def_y_text', '4')][0m
+[92m[DEBUG] Разыгрывается Runeward Circlet: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Runeward Circlet, эффекты к применению: [('blessing', '2'), ('draw', '1'), ('g_chain', None), ('trash', '1'), ('def_y_text', '4')][0m
+[93m  Blessing на ход: 3, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Omnipresent Step Boots(4)', 'Plague(6)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[94m
+=== Ход 10 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Desperate Thrust', 'Priestess', 'Prayer', 'Stuning Light'], deck=['Strike', 'Prayer'], discard=['Battle Rhythm', 'Strike', 'Spores', 'Prayer', 'Spores', 'Quick Response', 'Strike'][0m
+[94m[PLAYER] P2 (начало): HP=16, Poison=7, Bleed=0[0m
+[94mHand(4): ['Desperate Thrust', 'Priestess', 'Prayer', 'Stuning Light'][0m
+[94mDeck(2): ['Strike', 'Prayer'][0m
+[94mDiscard(7): ['Battle Rhythm', 'Strike', 'Spores', 'Prayer', 'Spores', 'Quick Response', 'Strike'][0m
+[94mTrash(4): ['Prayer', 'Priestess', 'Priestess', 'Prayer'][0m
+[94mHP: 16[0m
+[94mPoison: 7[0m
+[94mBleed: 0[0m
+[94m         Hand(4): ['Desperate Thrust', 'Priestess', 'Prayer', 'Stuning Light'][0m
+[94m         Deck(2): ['Strike', 'Prayer'][0m
+[94m         Discard(7): ['Battle Rhythm', 'Strike', 'Spores', 'Prayer', 'Spores', 'Quick Response', 'Strike'][0m
+[94m         Gear(0): [][0m
+[94m         Trash(4): ['Prayer', 'Priestess', 'Priestess', 'Prayer'][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect1='{Bleed 2}{Damage 3}' -> [('bleed', '2'), ('damage', '3')][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect2text='If you have Bleed TO{Damage 2}' -> [[], [('damage', '2')]][0m
+[94m[DEBUG] Разыгрывается карта Desperate Thrust, эффекты к применению: [('bleed', '2'), ('damage', '3'), [], [('damage', '2')]][0m
+[94m[DEBUG] Разыгрывается Priestess: effect1='{Blessing 2}' -> [('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Priestess: effect2='{Trash_this}TO{Damage 2}{Discard Monster}' -> [[('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[94m[DEBUG] Разыгрывается карта Priestess, эффекты к применению: [('blessing', '2'), [('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Stuning Light: effect1='{Damage 7}{Stun 1}{Draw 1}' -> [('damage', '7'), ('stun', '1'), ('draw', '1')][0m
+[94m[DEBUG] Разыгрывается Stuning Light: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Stuning Light: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Stuning Light: effect2text='{B_chain}{Stun 1}{Destroy}' -> [('b_chain', None), ('stun', '1'), ('destroy', None)][0m
+[94m[DEBUG] Разыгрывается карта Stuning Light, эффекты к применению: [('damage', '7'), ('stun', '1'), ('draw', '1'), ('b_chain', None), ('stun', '1'), ('destroy', None)][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 3, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Omnipresent Step Boots(4)', 'Plague(6)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[92m
+=== Ход 11 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Roll', 'Prayer', 'Strike', 'Prayer'], deck=['Poisoned Blood'], discard=['Prayer', 'Prayer', 'Prayer', 'Unbreakable', 'Shock', 'Priestess', 'Strike', 'Breakthrough', 'Heal Bash', 'Readiness', 'Insight', 'Prayer', 'Prayer', 'Disarm', 'Prayer', 'Priestess', 'Blade', 'Runeward Circlet', 'Strike'][0m
+[92m[PLAYER] P1 (начало): HP=11, Poison=0, Bleed=1[0m
+[92mHand(4): ['Roll', 'Prayer', 'Strike', 'Prayer'][0m
+[92mDeck(1): ['Poisoned Blood'][0m
+[92mDiscard(19): ['Prayer', 'Prayer', 'Prayer', 'Unbreakable', 'Shock', 'Priestess', 'Strike', 'Breakthrough', 'Heal Bash', 'Readiness', 'Insight', 'Prayer', 'Prayer', 'Disarm', 'Prayer', 'Priestess', 'Blade', 'Runeward Circlet', 'Strike'][0m
+[92mTrash(2): ['Priestess', 'Prayer'][0m
+[92mHP: 11[0m
+[92mPoison: 0[0m
+[92mBleed: 1[0m
+[92m         Hand(4): ['Roll', 'Prayer', 'Strike', 'Prayer'][0m
+[92m         Deck(1): ['Poisoned Blood'][0m
+[92m         Discard(19): ['Prayer', 'Prayer', 'Prayer', 'Unbreakable', 'Shock', 'Priestess', 'Strike', 'Breakthrough', 'Heal Bash', 'Readiness', 'Insight', 'Prayer', 'Prayer', 'Disarm', 'Prayer', 'Priestess', 'Blade', 'Runeward Circlet', 'Strike'][0m
+[92m         Gear(1): ['Poisonous Sting'][0m
+[92m         Trash(2): ['Priestess', 'Prayer'][0m
+[92m[DEBUG] Разыгрывается Roll: effect1='{Blessing 2}{Heal 3}' -> [('blessing', '2'), ('heal', '3')][0m
+[92m[DEBUG] Разыгрывается Roll: effect2='{W_chain}{Draw 1}' -> [('w_chain', None), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Roll: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Roll: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Roll, эффекты к применению: [('blessing', '2'), ('heal', '3'), ('w_chain', None), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Poisoned Blood: effect1='{Blessing 2}{Poison 2}' -> [('blessing', '2'), ('poison', '2')][0m
+[92m[DEBUG] Разыгрывается Poisoned Blood: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается Poisoned Blood: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Poisoned Blood: effect2text='{Trash_this}TOAcquire a Gear card for free' -> [[('trash_this', None)], []][0m
+[92m[DEBUG] Разыгрывается карта Poisoned Blood, эффекты к применению: [('blessing', '2'), ('poison', '2'), [('trash_this', None)], []][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: ['Omnipresent Step Boots'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Omnipresent Step Boots(4)', 'Plague(6)'][0m
+[93m  Куплена карта: Omnipresent Step Boots[0m
+[93m  Blessing на ход: 4, потрачено: 4[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Plague(6)', 'Roll(1)'][0m
+[94m
+=== Ход 11 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Strike', 'Quick Response', 'Priestess', 'Prayer', 'Prayer'], deck=['Prayer', 'Strike', 'Desperate Thrust', 'Spores', 'Stuning Light', 'Battle Rhythm', 'Strike', 'Spores'], discard=[][0m
+[94m[PLAYER] P2 (начало): HP=15, Poison=9, Bleed=0[0m
+[94mHand(5): ['Strike', 'Quick Response', 'Priestess', 'Prayer', 'Prayer'][0m
+[94mDeck(8): ['Prayer', 'Strike', 'Desperate Thrust', 'Spores', 'Stuning Light', 'Battle Rhythm', 'Strike', 'Spores'][0m
+[94mDiscard(0): [][0m
+[94mTrash(5): ['Prayer', 'Priestess', 'Priestess', 'Prayer', 'Priestess'][0m
+[94mHP: 15[0m
+[94mPoison: 9[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Strike', 'Quick Response', 'Priestess', 'Prayer', 'Prayer'][0m
+[94m         Deck(8): ['Prayer', 'Strike', 'Desperate Thrust', 'Spores', 'Stuning Light', 'Battle Rhythm', 'Strike', 'Spores'][0m
+[94m         Discard(0): [][0m
+[94m         Gear(0): [][0m
+[94m         Trash(5): ['Prayer', 'Priestess', 'Priestess', 'Prayer', 'Priestess'][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Quick Response: effect1='{Heal_bleed 3}OR{Heal_poison 3}' -> [[('heal_bleed', '3')], [('heal_poison', '3')]][0m
+[94m[DEBUG] Разыгрывается Quick Response: effect2='{W_chain}{Damage 5}' -> [('w_chain', None), ('damage', '5')][0m
+[94m[DEBUG] Разыгрывается Quick Response: effect1text='{Blessing 2}' -> [('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Quick Response: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Quick Response, эффекты к применению: [[('heal_bleed', '3')], [('heal_poison', '3')], ('w_chain', None), ('damage', '5'), ('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Priestess: effect1='{Blessing 2}' -> [('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Priestess: effect2='{Trash_this}TO{Damage 2}{Discard Monster}' -> [[('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[94m[DEBUG] Разыгрывается карта Priestess, эффекты к применению: [('blessing', '2'), [('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 6, потрачено: 0[0m
+[93m  Доступные для покупки: ['Gloves of Illusion', 'Plague', 'Roll'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Plague(6)', 'Roll(1)'][0m
+[93m  Куплена карта: Plague[0m
+[93m  Blessing на ход: 6, потрачено: 6[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Roll(1)', 'Dash(3)'][0m
+[92m
+=== Ход 12 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Blade', 'Prayer', 'Prayer', 'Prayer', 'Strike'], deck=['Omnipresent Step Boots', 'Prayer', 'Readiness', 'Roll', 'Shock', 'Prayer', 'Insight', 'Priestess', 'Prayer', 'Disarm', 'Runeward Circlet', 'Prayer', 'Unbreakable', 'Strike', 'Prayer', 'Poisoned Blood', 'Priestess', 'Strike', 'Heal Bash', 'Breakthrough'], discard=[][0m
+[92m[PLAYER] P1 (начало): HP=7, Poison=0, Bleed=0[0m
+[92mHand(5): ['Blade', 'Prayer', 'Prayer', 'Prayer', 'Strike'][0m
+[92mDeck(20): ['Omnipresent Step Boots', 'Prayer', 'Readiness', 'Roll', 'Shock', 'Prayer', 'Insight', 'Priestess', 'Prayer', 'Disarm', 'Runeward Circlet', 'Prayer', 'Unbreakable', 'Strike', 'Prayer', 'Poisoned Blood', 'Priestess', 'Strike', 'Heal Bash', 'Breakthrough'][0m
+[92mDiscard(0): [][0m
+[92mTrash(2): ['Priestess', 'Prayer'][0m
+[92mHP: 7[0m
+[92mPoison: 0[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Blade', 'Prayer', 'Prayer', 'Prayer', 'Strike'][0m
+[92m         Deck(20): ['Omnipresent Step Boots', 'Prayer', 'Readiness', 'Roll', 'Shock', 'Prayer', 'Insight', 'Priestess', 'Prayer', 'Disarm', 'Runeward Circlet', 'Prayer', 'Unbreakable', 'Strike', 'Prayer', 'Poisoned Blood', 'Priestess', 'Strike', 'Heal Bash', 'Breakthrough'][0m
+[92m         Discard(0): [][0m
+[92m         Gear(1): ['Poisonous Sting'][0m
+[92m         Trash(2): ['Priestess', 'Prayer'][0m
+[92m[DEBUG] Разыгрывается Blade: effect1='{Blessing 1}{Bleed 1}{Damage 1}' -> [('blessing', '1'), ('bleed', '1'), ('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Blade: effect2='{R_chain}{Damage 2}' -> [('r_chain', None), ('damage', '2')][0m
+[92m[DEBUG] Разыгрывается Blade: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Blade: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Blade, эффекты к применению: [('blessing', '1'), ('bleed', '1'), ('damage', '1'), ('r_chain', None), ('damage', '2')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: ['Roll', 'Dash'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Roll(1)', 'Dash(3)'][0m
+[93m  Куплена карта: Roll[0m
+[93m  Blessing на ход: 4, потрачено: 1[0m
+[93m  Доступные для покупки: ['Dash'][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Dash(3)', 'Mjolnir(6)'][0m
+[93m  Куплена карта: Dash[0m
+[93m  Blessing на ход: 4, потрачено: 4[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Mjolnir(6)', 'Cleave(7)'][0m
+[94m
+=== Ход 12 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Spores', 'Strike', 'Battle Rhythm', 'Stuning Light', 'Spores'], deck=['Prayer', 'Strike', 'Desperate Thrust'], discard=['Strike', 'Quick Response', 'Prayer', 'Prayer', 'Plague'][0m
+[94m[PLAYER] P2 (начало): HP=10, Poison=9, Bleed=0[0m
+[94mHand(5): ['Spores', 'Strike', 'Battle Rhythm', 'Stuning Light', 'Spores'][0m
+[94mDeck(3): ['Prayer', 'Strike', 'Desperate Thrust'][0m
+[94mDiscard(5): ['Strike', 'Quick Response', 'Prayer', 'Prayer', 'Plague'][0m
+[94mTrash(6): ['Prayer', 'Priestess', 'Priestess', 'Prayer', 'Priestess', 'Priestess'][0m
+[94mHP: 10[0m
+[94mPoison: 9[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Spores', 'Strike', 'Battle Rhythm', 'Stuning Light', 'Spores'][0m
+[94m         Deck(3): ['Prayer', 'Strike', 'Desperate Thrust'][0m
+[94m         Discard(5): ['Strike', 'Quick Response', 'Prayer', 'Prayer', 'Plague'][0m
+[94m         Gear(0): [][0m
+[94m         Trash(6): ['Prayer', 'Priestess', 'Priestess', 'Prayer', 'Priestess', 'Priestess'][0m
+[94m[DEBUG] Разыгрывается Spores: effect1='{Blessing 2}{Trash 1}' -> [('blessing', '2'), ('trash', '1')][0m
+[94m[DEBUG] Разыгрывается Spores: effect2='{G_chain}{Damage 2}{Draw 1}' -> [('g_chain', None), ('damage', '2'), ('draw', '1')][0m
+[94m[DEBUG] Разыгрывается Spores: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Spores: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Spores, эффекты к применению: [('blessing', '2'), ('trash', '1'), ('g_chain', None), ('damage', '2'), ('draw', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect1='{Stun 1}{Damage 2}' -> [('stun', '1'), ('damage', '2')][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect2='This turn your cards have Chain with the cards in the Trade Row' -> [][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Battle Rhythm, эффекты к применению: [('stun', '1'), ('damage', '2')][0m
+[94m[DEBUG] Разыгрывается Stuning Light: effect1='{Damage 7}{Stun 1}{Draw 1}' -> [('damage', '7'), ('stun', '1'), ('draw', '1')][0m
+[94m[DEBUG] Разыгрывается Stuning Light: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Stuning Light: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Stuning Light: effect2text='{B_chain}{Stun 1}{Destroy}' -> [('b_chain', None), ('stun', '1'), ('destroy', None)][0m
+[94m[DEBUG] Разыгрывается карта Stuning Light, эффекты к применению: [('damage', '7'), ('stun', '1'), ('draw', '1'), ('b_chain', None), ('stun', '1'), ('destroy', None)][0m
+[94m[DEBUG] Разыгрывается Spores: effect1='{Blessing 2}{Trash 1}' -> [('blessing', '2'), ('trash', '1')][0m
+[94m[DEBUG] Разыгрывается Spores: effect2='{G_chain}{Damage 2}{Draw 1}' -> [('g_chain', None), ('damage', '2'), ('draw', '1')][0m
+[94m[DEBUG] Разыгрывается Spores: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Spores: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Spores, эффекты к применению: [('blessing', '2'), ('trash', '1'), ('g_chain', None), ('damage', '2'), ('draw', '1')][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect1='{Bleed 2}{Damage 3}' -> [('bleed', '2'), ('damage', '3')][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Desperate Thrust: effect2text='If you have Bleed TO{Damage 2}' -> [[], [('damage', '2')]][0m
+[94m[DEBUG] Разыгрывается карта Desperate Thrust, эффекты к применению: [('bleed', '2'), ('damage', '3'), [], [('damage', '2')]][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Gloves of Illusion(5)', 'Saint’s Shield(8)', 'Stuning Light(7)', 'Mjolnir(6)', 'Cleave(7)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[92m
+=== Ход 13 (P1) ===[0m
+[92m
+=== Ход 1 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Prayer'], deck=['Prayer', 'Strike', 'Prayer', 'Strike', 'Strike'], discard=[][0m
+[92m[PLAYER] P1 (начало): HP=40, Poison=0, Bleed=0[0m
+[92mHand(5): ['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Prayer'][0m
+[92mDeck(5): ['Prayer', 'Strike', 'Prayer', 'Strike', 'Strike'][0m
+[92mDiscard(0): [][0m
+[92mTrash(0): [][0m
+[92mHP: 40[0m
+[92mPoison: 0[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Prayer'][0m
+[92m         Deck(5): ['Prayer', 'Strike', 'Prayer', 'Strike', 'Strike'][0m
+[92m         Discard(0): [][0m
+[92m         Gear(0): [][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 5, потрачено: 0[0m
+[93m  Доступные для покупки: ['Knife', 'Toxin', 'Blood-stained Gloves'][0m
+[93m[DEBUG] market.trade_row после refill: ['Knife(3)', 'Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Toxin(3)', 'Blood-stained Gloves(4)'][0m
+[93m  Куплена карта: Blood-stained Gloves[0m
+[93m  Blessing на ход: 5, потрачено: 4[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Knife(3)', 'Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Toxin(3)', 'Readiness(3)'][0m
+[94m
+=== Ход 1 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Prayer', 'Strike', 'Prayer', 'Strike', 'Prayer'], deck=['Prayer', 'Prayer', 'Strike', 'Prayer', 'Prayer'], discard=[][0m
+[94m[PLAYER] P2 (начало): HP=50, Poison=0, Bleed=0[0m
+[94mHand(5): ['Prayer', 'Strike', 'Prayer', 'Strike', 'Prayer'][0m
+[94mDeck(5): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Prayer'][0m
+[94mDiscard(0): [][0m
+[94mTrash(0): [][0m
+[94mHP: 50[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Prayer', 'Strike', 'Prayer', 'Strike', 'Prayer'][0m
+[94m         Deck(5): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Prayer'][0m
+[94m         Discard(0): [][0m
+[94m         Gear(0): [][0m
+[94m         Trash(0): [][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 3, потрачено: 0[0m
+[93m  Доступные для покупки: ['Knife', 'Toxin', 'Readiness'][0m
+[93m[DEBUG] market.trade_row после refill: ['Knife(3)', 'Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Toxin(3)', 'Readiness(3)'][0m
+[93m  Куплена карта: Knife[0m
+[93m  Blessing на ход: 3, потрачено: 3[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Toxin(3)', 'Readiness(3)', 'Saint’s Mace(4)'][0m
+[92m
+=== Ход 2 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Strike', 'Strike', 'Prayer', 'Strike', 'Prayer'], deck=[], discard=['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Blood-stained Gloves'][0m
+[92m[PLAYER] P1 (начало): HP=38, Poison=0, Bleed=0[0m
+[92mHand(5): ['Strike', 'Strike', 'Prayer', 'Strike', 'Prayer'][0m
+[92mDeck(0): [][0m
+[92mDiscard(6): ['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Blood-stained Gloves'][0m
+[92mTrash(0): [][0m
+[92mHP: 38[0m
+[92mPoison: 0[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Strike', 'Strike', 'Prayer', 'Strike', 'Prayer'][0m
+[92m         Deck(0): [][0m
+[92m         Discard(6): ['Prayer', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Blood-stained Gloves'][0m
+[92m         Gear(0): [][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 2, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Toxin(3)', 'Readiness(3)', 'Saint’s Mace(4)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[94m
+=== Ход 2 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Prayer', 'Prayer', 'Strike', 'Prayer', 'Prayer'], deck=[], discard=['Prayer', 'Strike', 'Prayer', 'Strike', 'Prayer', 'Knife'][0m
+[94m[PLAYER] P2 (начало): HP=47, Poison=0, Bleed=0[0m
+[94mHand(5): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Prayer'][0m
+[94mDeck(0): [][0m
+[94mDiscard(6): ['Prayer', 'Strike', 'Prayer', 'Strike', 'Prayer', 'Knife'][0m
+[94mTrash(0): [][0m
+[94mHP: 47[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Prayer'][0m
+[94m         Deck(0): [][0m
+[94m         Discard(6): ['Prayer', 'Strike', 'Prayer', 'Strike', 'Prayer', 'Knife'][0m
+[94m         Gear(0): [][0m
+[94m         Trash(0): [][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: ['Toxin', 'Readiness', 'Saint’s Mace'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Toxin(3)', 'Readiness(3)', 'Saint’s Mace(4)'][0m
+[93m  Куплена карта: Saint’s Mace[0m
+[93m  Blessing на ход: 4, потрачено: 4[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Toxin(3)', 'Readiness(3)', 'Vampire’s Blessing Ring(3)'][0m
+[92m
+=== Ход 3 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Strike', 'Prayer', 'Strike', 'Prayer', 'Prayer'], deck=['Strike', 'Priestess', 'Prayer', 'Prayer', 'Prayer', 'Blood-stained Gloves', 'Prayer'], discard=[][0m
+[92m[PLAYER] P1 (начало): HP=37, Poison=0, Bleed=0[0m
+[92mHand(5): ['Strike', 'Prayer', 'Strike', 'Prayer', 'Prayer'][0m
+[92mDeck(7): ['Strike', 'Priestess', 'Prayer', 'Prayer', 'Prayer', 'Blood-stained Gloves', 'Prayer'][0m
+[92mDiscard(0): [][0m
+[92mTrash(0): [][0m
+[92mHP: 37[0m
+[92mPoison: 0[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Strike', 'Prayer', 'Strike', 'Prayer', 'Prayer'][0m
+[92m         Deck(7): ['Strike', 'Priestess', 'Prayer', 'Prayer', 'Prayer', 'Blood-stained Gloves', 'Prayer'][0m
+[92m         Discard(0): [][0m
+[92m         Gear(0): [][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 3, потрачено: 0[0m
+[93m  Доступные для покупки: ['Toxin', 'Readiness', 'Vampire’s Blessing Ring'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Toxin(3)', 'Readiness(3)', 'Vampire’s Blessing Ring(3)'][0m
+[93m  Куплена карта: Vampire’s Blessing Ring[0m
+[93m  Blessing на ход: 3, потрачено: 3[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Toxin(3)', 'Readiness(3)', 'Heavy Plate(4)'][0m
+[94m
+=== Ход 3 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Prayer', 'Strike', 'Prayer', 'Strike', 'Prayer'], deck=['Prayer', 'Saint’s Mace', 'Prayer', 'Knife', 'Strike', 'Prayer', 'Prayer'], discard=[][0m
+[94m[PLAYER] P2 (начало): HP=45, Poison=0, Bleed=0[0m
+[94mHand(5): ['Prayer', 'Strike', 'Prayer', 'Strike', 'Prayer'][0m
+[94mDeck(7): ['Prayer', 'Saint’s Mace', 'Prayer', 'Knife', 'Strike', 'Prayer', 'Prayer'][0m
+[94mDiscard(0): [][0m
+[94mTrash(0): [][0m
+[94mHP: 45[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Prayer', 'Strike', 'Prayer', 'Strike', 'Prayer'][0m
+[94m         Deck(7): ['Prayer', 'Saint’s Mace', 'Prayer', 'Knife', 'Strike', 'Prayer', 'Prayer'][0m
+[94m         Discard(0): [][0m
+[94m         Gear(0): [][0m
+[94m         Trash(0): [][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 3, потрачено: 0[0m
+[93m  Доступные для покупки: ['Toxin', 'Readiness'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Toxin(3)', 'Readiness(3)', 'Heavy Plate(4)'][0m
+[93m  Куплена карта: Toxin[0m
+[93m  Blessing на ход: 3, потрачено: 3[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Readiness(3)', 'Heavy Plate(4)', 'Infection(2)'][0m
+[92m
+=== Ход 4 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Prayer', 'Blood-stained Gloves', 'Prayer', 'Prayer', 'Prayer'], deck=['Strike', 'Priestess'], discard=['Strike', 'Prayer', 'Strike', 'Prayer', 'Prayer', 'Vampire’s Blessing Ring'][0m
+[92m[PLAYER] P1 (начало): HP=35, Poison=0, Bleed=0[0m
+[92mHand(5): ['Prayer', 'Blood-stained Gloves', 'Prayer', 'Prayer', 'Prayer'][0m
+[92mDeck(2): ['Strike', 'Priestess'][0m
+[92mDiscard(6): ['Strike', 'Prayer', 'Strike', 'Prayer', 'Prayer', 'Vampire’s Blessing Ring'][0m
+[92mTrash(0): [][0m
+[92mHP: 35[0m
+[92mPoison: 0[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Prayer', 'Blood-stained Gloves', 'Prayer', 'Prayer', 'Prayer'][0m
+[92m         Deck(2): ['Strike', 'Priestess'][0m
+[92m         Discard(6): ['Strike', 'Prayer', 'Strike', 'Prayer', 'Prayer', 'Vampire’s Blessing Ring'][0m
+[92m         Gear(0): [][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Blood-stained Gloves: effect1='{Bleed 1}{Draw 1}' -> [('bleed', '1'), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Blood-stained Gloves: effect2='{R_chain}{Damage 2}' -> [('r_chain', None), ('damage', '2')][0m
+[92m[DEBUG] Разыгрывается Blood-stained Gloves: effect1text='{Def_Y_Text 4}' -> [('def_y_text', '4')][0m
+[92m[DEBUG] Разыгрывается Blood-stained Gloves: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Blood-stained Gloves, эффекты к применению: [('bleed', '1'), ('draw', '1'), ('r_chain', None), ('damage', '2'), ('def_y_text', '4')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: ['Readiness', 'Heavy Plate', 'Infection'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Readiness(3)', 'Heavy Plate(4)', 'Infection(2)'][0m
+[93m  Куплена карта: Readiness[0m
+[93m  Blessing на ход: 4, потрачено: 3[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Heavy Plate(4)', 'Infection(2)', 'Heal Bash(2)'][0m
+[94m
+=== Ход 4 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Prayer', 'Prayer', 'Strike', 'Knife', 'Prayer'], deck=['Prayer', 'Saint’s Mace'], discard=['Prayer', 'Strike', 'Prayer', 'Strike', 'Prayer', 'Toxin'][0m
+[94m[PLAYER] P2 (начало): HP=42, Poison=0, Bleed=0[0m
+[94mHand(5): ['Prayer', 'Prayer', 'Strike', 'Knife', 'Prayer'][0m
+[94mDeck(2): ['Prayer', 'Saint’s Mace'][0m
+[94mDiscard(6): ['Prayer', 'Strike', 'Prayer', 'Strike', 'Prayer', 'Toxin'][0m
+[94mTrash(0): [][0m
+[94mHP: 42[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Prayer', 'Prayer', 'Strike', 'Knife', 'Prayer'][0m
+[94m         Deck(2): ['Prayer', 'Saint’s Mace'][0m
+[94m         Discard(6): ['Prayer', 'Strike', 'Prayer', 'Strike', 'Prayer', 'Toxin'][0m
+[94m         Gear(0): [][0m
+[94m         Trash(0): [][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Knife: effect1='{Bleed 1}{Damage 4}' -> [('bleed', '1'), ('damage', '4')][0m
+[94m[DEBUG] Разыгрывается Knife: effect2='{R_chain}{Defeat Monster} of Power 4 or less' -> [('r_chain', None), ('defeat', 'Monster')][0m
+[94m[DEBUG] Разыгрывается Knife: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Knife: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Knife, эффекты к применению: [('bleed', '1'), ('damage', '4'), ('r_chain', None), ('defeat', 'Monster')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 3, потрачено: 0[0m
+[93m  Доступные для покупки: ['Infection', 'Heal Bash'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Heavy Plate(4)', 'Infection(2)', 'Heal Bash(2)'][0m
+[93m  Куплена карта: Infection[0m
+[93m  Blessing на ход: 3, потрачено: 2[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Heavy Plate(4)', 'Heal Bash(2)', 'Divine Blade(6)'][0m
+[92m
+=== Ход 5 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Strike', 'Prayer', 'Prayer', 'Vampire’s Blessing Ring', 'Strike'], deck=['Prayer', 'Priestess', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Strike', 'Readiness'], discard=['Blood-stained Gloves'][0m
+[92m[PLAYER] P1 (начало): HP=33, Poison=0, Bleed=0[0m
+[92mHand(5): ['Strike', 'Prayer', 'Prayer', 'Vampire’s Blessing Ring', 'Strike'][0m
+[92mDeck(8): ['Prayer', 'Priestess', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Strike', 'Readiness'][0m
+[92mDiscard(1): ['Blood-stained Gloves'][0m
+[92mTrash(0): [][0m
+[92mHP: 33[0m
+[92mPoison: 0[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Strike', 'Prayer', 'Prayer', 'Vampire’s Blessing Ring', 'Strike'][0m
+[92m         Deck(8): ['Prayer', 'Priestess', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Strike', 'Readiness'][0m
+[92m         Discard(1): ['Blood-stained Gloves'][0m
+[92m         Gear(0): [][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Vampire’s Blessing Ring: effect1='{Damage 2}{Blessing X} X is the amount of Bleed on you' -> [('damage', '2'), ('blessing', 0)][0m
+[92m[DEBUG] Разыгрывается Vampire’s Blessing Ring: effect2='{R_chain}{Bleed 1}' -> [('r_chain', None), ('bleed', '1')][0m
+[92m[DEBUG] Разыгрывается Vampire’s Blessing Ring: effect1text='{Def_N_Text 3}' -> [('def_n_text', '3')][0m
+[92m[DEBUG] Разыгрывается Vampire’s Blessing Ring: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Vampire’s Blessing Ring, эффекты к применению: [('damage', '2'), ('blessing', 0), ('r_chain', None), ('bleed', '1'), ('def_n_text', '3')][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[93m  Blessing на ход: 2, потрачено: 0[0m
+[93m  Доступные для покупки: ['Heal Bash'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Heavy Plate(4)', 'Heal Bash(2)', 'Divine Blade(6)'][0m
+[93m  Куплена карта: Heal Bash[0m
+[93m  Blessing на ход: 2, потрачено: 2[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Heavy Plate(4)', 'Divine Blade(6)', 'Blade(1)'][0m
+[94m
+=== Ход 5 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Saint’s Mace', 'Prayer', 'Prayer', 'Toxin', 'Knife'], deck=['Prayer', 'Prayer', 'Strike', 'Infection', 'Strike', 'Prayer', 'Strike', 'Prayer', 'Prayer'], discard=[][0m
+[94m[PLAYER] P2 (начало): HP=37, Poison=0, Bleed=0[0m
+[94mHand(5): ['Saint’s Mace', 'Prayer', 'Prayer', 'Toxin', 'Knife'][0m
+[94mDeck(9): ['Prayer', 'Prayer', 'Strike', 'Infection', 'Strike', 'Prayer', 'Strike', 'Prayer', 'Prayer'][0m
+[94mDiscard(0): [][0m
+[94mTrash(0): [][0m
+[94mHP: 37[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Saint’s Mace', 'Prayer', 'Prayer', 'Toxin', 'Knife'][0m
+[94m         Deck(9): ['Prayer', 'Prayer', 'Strike', 'Infection', 'Strike', 'Prayer', 'Strike', 'Prayer', 'Prayer'][0m
+[94m         Discard(0): [][0m
+[94m         Gear(0): [][0m
+[94m         Trash(0): [][0m
+[94m[DEBUG] Разыгрывается Saint’s Mace: effect1='{Damage 2}{Draw 1}' -> [('damage', '2'), ('draw', '1')][0m
+[94m[DEBUG] Разыгрывается Saint’s Mace: effect2='{W_chain}{Blessing 2}{Heal 3}' -> [('w_chain', None), ('blessing', '2'), ('heal', '3')][0m
+[94m[DEBUG] Разыгрывается Saint’s Mace: effect1text='{Def_Y_Text 3}' -> [('def_y_text', '3')][0m
+[94m[DEBUG] Разыгрывается Saint’s Mace: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Saint’s Mace, эффекты к применению: [('damage', '2'), ('draw', '1'), ('w_chain', None), ('blessing', '2'), ('heal', '3'), ('def_y_text', '3')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Toxin: effect1='{Blessing 2}{Poison 1}{Trash 1}' -> [('blessing', '2'), ('poison', '1'), ('trash', '1')][0m
+[94m[DEBUG] Разыгрывается Toxin: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Toxin: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Toxin: effect2text='{Discard X}TO{Poison X}' -> [[('discard', 0)], [('poison', 0)]][0m
+[94m[DEBUG] Разыгрывается карта Toxin, эффекты к применению: [('blessing', '2'), ('poison', '1'), ('trash', '1'), [('discard', 0)], [('poison', 0)]][0m
+[94m[DEBUG] Разыгрывается Knife: effect1='{Bleed 1}{Damage 4}' -> [('bleed', '1'), ('damage', '4')][0m
+[94m[DEBUG] Разыгрывается Knife: effect2='{R_chain}{Defeat Monster} of Power 4 or less' -> [('r_chain', None), ('defeat', 'Monster')][0m
+[94m[DEBUG] Разыгрывается Knife: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Knife: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Knife, эффекты к применению: [('bleed', '1'), ('damage', '4'), ('r_chain', None), ('defeat', 'Monster')][0m
+[93m  Blessing на ход: 6, потрачено: 0[0m
+[93m  Доступные для покупки: ['Mjolnir', 'Basilisk Hide Armor', 'Heavy Plate', 'Divine Blade', 'Blade'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Basilisk Hide Armor(6)', 'Heavy Plate(4)', 'Divine Blade(6)', 'Blade(1)'][0m
+[93m  Куплена карта: Basilisk Hide Armor[0m
+[93m  Blessing на ход: 6, потрачено: 6[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Heavy Plate(4)', 'Divine Blade(6)', 'Blade(1)', 'Insight(3)'][0m
+[92m
+=== Ход 6 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Readiness', 'Strike', 'Prayer', 'Prayer', 'Prayer'], deck=['Prayer', 'Priestess', 'Prayer'], discard=['Blood-stained Gloves', 'Strike', 'Prayer', 'Prayer', 'Strike', 'Heal Bash'][0m
+[92m[PLAYER] P1 (начало): HP=26, Poison=1, Bleed=0[0m
+[92mHand(5): ['Readiness', 'Strike', 'Prayer', 'Prayer', 'Prayer'][0m
+[92mDeck(3): ['Prayer', 'Priestess', 'Prayer'][0m
+[92mDiscard(6): ['Blood-stained Gloves', 'Strike', 'Prayer', 'Prayer', 'Strike', 'Heal Bash'][0m
+[92mTrash(0): [][0m
+[92mHP: 26[0m
+[92mPoison: 1[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Readiness', 'Strike', 'Prayer', 'Prayer', 'Prayer'][0m
+[92m         Deck(3): ['Prayer', 'Priestess', 'Prayer'][0m
+[92m         Discard(6): ['Blood-stained Gloves', 'Strike', 'Prayer', 'Prayer', 'Strike', 'Heal Bash'][0m
+[92m         Gear(1): ['Vampire’s Blessing Ring'][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1='{Heal 4}OR{Heal_bleed 2}or{Heal_poison 2}' -> [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')]][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2='{W_chain}{Ready 1}' -> [('w_chain', None), ('ready', '1')][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Readiness, эффекты к применению: [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')], ('w_chain', None), ('ready', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 3, потрачено: 0[0m
+[93m  Доступные для покупки: ['Blade', 'Insight'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Heavy Plate(4)', 'Divine Blade(6)', 'Blade(1)', 'Insight(3)'][0m
+[93m  Куплена карта: Insight[0m
+[93m  Blessing на ход: 3, потрачено: 3[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Heavy Plate(4)', 'Divine Blade(6)', 'Blade(1)', 'Resilience(4)'][0m
+[94m
+=== Ход 6 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Prayer', 'Strike', 'Prayer', 'Strike', 'Infection'], deck=['Prayer', 'Prayer', 'Strike'], discard=['Prayer', 'Toxin', 'Knife', 'Basilisk Hide Armor', 'Prayer'][0m
+[94m[PLAYER] P2 (начало): HP=40, Poison=0, Bleed=0[0m
+[94mHand(5): ['Prayer', 'Strike', 'Prayer', 'Strike', 'Infection'][0m
+[94mDeck(3): ['Prayer', 'Prayer', 'Strike'][0m
+[94mDiscard(5): ['Prayer', 'Toxin', 'Knife', 'Basilisk Hide Armor', 'Prayer'][0m
+[94mTrash(1): ['Prayer'][0m
+[94mHP: 40[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Prayer', 'Strike', 'Prayer', 'Strike', 'Infection'][0m
+[94m         Deck(3): ['Prayer', 'Prayer', 'Strike'][0m
+[94m         Discard(5): ['Prayer', 'Toxin', 'Knife', 'Basilisk Hide Armor', 'Prayer'][0m
+[94m         Gear(1): ['Saint’s Mace'][0m
+[94m         Trash(1): ['Prayer'][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Infection: effect1='{Damage 2}{Trash 1}' -> [('damage', '2'), ('trash', '1')][0m
+[94m[DEBUG] Разыгрывается Infection: effect2='{G_chain}{Poison 2}{Blessing 2}' -> [('g_chain', None), ('poison', '2'), ('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Infection: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Infection: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Infection, эффекты к применению: [('damage', '2'), ('trash', '1'), ('g_chain', None), ('poison', '2'), ('blessing', '2')][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: ['Heavy Plate', 'Blade', 'Resilience'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Heavy Plate(4)', 'Divine Blade(6)', 'Blade(1)', 'Resilience(4)'][0m
+[93m  Куплена карта: Heavy Plate[0m
+[93m  Blessing на ход: 4, потрачено: 4[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Blade(1)', 'Resilience(4)', 'Readiness(3)'][0m
+[92m
+=== Ход 7 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Prayer', 'Priestess', 'Prayer', 'Strike', 'Heal Bash'], deck=['Prayer', 'Prayer', 'Strike', 'Readiness', 'Prayer', 'Prayer', 'Blood-stained Gloves', 'Strike', 'Prayer', 'Insight'], discard=[][0m
+[92m[PLAYER] P1 (начало): HP=22, Poison=3, Bleed=0[0m
+[92mHand(5): ['Prayer', 'Priestess', 'Prayer', 'Strike', 'Heal Bash'][0m
+[92mDeck(10): ['Prayer', 'Prayer', 'Strike', 'Readiness', 'Prayer', 'Prayer', 'Blood-stained Gloves', 'Strike', 'Prayer', 'Insight'][0m
+[92mDiscard(0): [][0m
+[92mTrash(0): [][0m
+[92mHP: 22[0m
+[92mPoison: 3[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Prayer', 'Priestess', 'Prayer', 'Strike', 'Heal Bash'][0m
+[92m         Deck(10): ['Prayer', 'Prayer', 'Strike', 'Readiness', 'Prayer', 'Prayer', 'Blood-stained Gloves', 'Strike', 'Prayer', 'Insight'][0m
+[92m         Discard(0): [][0m
+[92m         Gear(1): ['Vampire’s Blessing Ring'][0m
+[92m         Trash(0): [][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Priestess: effect1='{Blessing 2}' -> [('blessing', '2')][0m
+[92m[DEBUG] Разыгрывается Priestess: effect2='{Trash_this}TO{Damage 2}{Discard Monster}' -> [[('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[92m[DEBUG] Разыгрывается карта Priestess, эффекты к применению: [('blessing', '2'), [('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect1='{Heal 3}{Blessing 2}' -> [('heal', '3'), ('blessing', '2')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect2='{W_chain}{Damage 4}' -> [('w_chain', None), ('damage', '4')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Heal Bash, эффекты к применению: [('heal', '3'), ('blessing', '2'), ('w_chain', None), ('damage', '4')][0m
+[93m  Blessing на ход: 6, потрачено: 0[0m
+[93m  Доступные для покупки: ['Mjolnir', 'Divine Blade', 'Blade', 'Resilience', 'Readiness'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Blade(1)', 'Resilience(4)', 'Readiness(3)'][0m
+[93m  Куплена карта: Blade[0m
+[93m  Blessing на ход: 6, потрачено: 1[0m
+[93m  Доступные для покупки: ['Resilience', 'Readiness', 'Festering Wound'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Resilience(4)', 'Readiness(3)', 'Festering Wound(2)'][0m
+[93m  Куплена карта: Festering Wound[0m
+[93m  Blessing на ход: 6, потрачено: 3[0m
+[93m  Доступные для покупки: ['Readiness'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Resilience(4)', 'Readiness(3)', 'Defense(6)'][0m
+[93m  Куплена карта: Readiness[0m
+[93m  Blessing на ход: 6, потрачено: 6[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Resilience(4)', 'Defense(6)', 'Assault(2)'][0m
+[94m
+=== Ход 7 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Strike', 'Prayer', 'Prayer', 'Heavy Plate', 'Knife'], deck=['Infection', 'Strike', 'Prayer', 'Basilisk Hide Armor', 'Prayer', 'Strike', 'Toxin', 'Prayer'], discard=['Saint’s Mace'][0m
+[94m[PLAYER] P2 (начало): HP=38, Poison=0, Bleed=0[0m
+[94mHand(5): ['Strike', 'Prayer', 'Prayer', 'Heavy Plate', 'Knife'][0m
+[94mDeck(8): ['Infection', 'Strike', 'Prayer', 'Basilisk Hide Armor', 'Prayer', 'Strike', 'Toxin', 'Prayer'][0m
+[94mDiscard(1): ['Saint’s Mace'][0m
+[94mTrash(2): ['Prayer', 'Prayer'][0m
+[94mHP: 38[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Strike', 'Prayer', 'Prayer', 'Heavy Plate', 'Knife'][0m
+[94m         Deck(8): ['Infection', 'Strike', 'Prayer', 'Basilisk Hide Armor', 'Prayer', 'Strike', 'Toxin', 'Prayer'][0m
+[94m         Discard(1): ['Saint’s Mace'][0m
+[94m         Gear(0): [][0m
+[94m         Trash(2): ['Prayer', 'Prayer'][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Heavy Plate: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Heavy Plate: effect2='{Trash_this}TO{Defeat Monster}' -> [[('trash_this', None)], [('defeat', 'Monster')]][0m
+[94m[DEBUG] Разыгрывается Heavy Plate: effect1text='{Def_Y_Text 5}' -> [('def_y_text', '5')][0m
+[94m[DEBUG] Разыгрывается Heavy Plate: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Heavy Plate, эффекты к применению: [('blessing', '1'), [('trash_this', None)], [('defeat', 'Monster')], ('def_y_text', '5')][0m
+[94m[DEBUG] Разыгрывается Knife: effect1='{Bleed 1}{Damage 4}' -> [('bleed', '1'), ('damage', '4')][0m
+[94m[DEBUG] Разыгрывается Knife: effect2='{R_chain}{Defeat Monster} of Power 4 or less' -> [('r_chain', None), ('defeat', 'Monster')][0m
+[94m[DEBUG] Разыгрывается Knife: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Knife: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Knife, эффекты к применению: [('bleed', '1'), ('damage', '4'), ('r_chain', None), ('defeat', 'Monster')][0m
+[93m  Blessing на ход: 3, потрачено: 0[0m
+[93m  Доступные для покупки: ['Assault'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Resilience(4)', 'Defense(6)', 'Assault(2)'][0m
+[93m  Куплена карта: Assault[0m
+[93m  Blessing на ход: 3, потрачено: 2[0m
+[93m  Доступные для покупки: ['Unbreakable'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Resilience(4)', 'Defense(6)', 'Unbreakable(1)'][0m
+[93m  Куплена карта: Unbreakable[0m
+[93m  Blessing на ход: 3, потрачено: 3[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Resilience(4)', 'Defense(6)', 'Cunning Move(2)'][0m
+[92m
+=== Ход 8 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Insight', 'Prayer', 'Strike', 'Blood-stained Gloves', 'Prayer'], deck=['Prayer', 'Prayer', 'Strike', 'Readiness', 'Prayer'], discard=['Prayer', 'Prayer', 'Strike', 'Heal Bash', 'Blade', 'Festering Wound', 'Readiness'][0m
+[92m[PLAYER] P1 (начало): HP=19, Poison=3, Bleed=0[0m
+[92mHand(5): ['Insight', 'Prayer', 'Strike', 'Blood-stained Gloves', 'Prayer'][0m
+[92mDeck(5): ['Prayer', 'Prayer', 'Strike', 'Readiness', 'Prayer'][0m
+[92mDiscard(7): ['Prayer', 'Prayer', 'Strike', 'Heal Bash', 'Blade', 'Festering Wound', 'Readiness'][0m
+[92mTrash(1): ['Priestess'][0m
+[92mHP: 19[0m
+[92mPoison: 3[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Insight', 'Prayer', 'Strike', 'Blood-stained Gloves', 'Prayer'][0m
+[92m         Deck(5): ['Prayer', 'Prayer', 'Strike', 'Readiness', 'Prayer'][0m
+[92m         Discard(7): ['Prayer', 'Prayer', 'Strike', 'Heal Bash', 'Blade', 'Festering Wound', 'Readiness'][0m
+[92m         Gear(1): ['Vampire’s Blessing Ring'][0m
+[92m         Trash(1): ['Priestess'][0m
+[92m[DEBUG] Разыгрывается Insight: effect1='{Damage 3}{Stun 1}' -> [('damage', '3'), ('stun', '1')][0m
+[92m[DEBUG] Разыгрывается Insight: effect2='{B_chain}{Spy 3}{Draw 1}' -> [('b_chain', None), ('spy', '3'), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Insight: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Insight: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Insight, эффекты к применению: [('damage', '3'), ('stun', '1'), ('b_chain', None), ('spy', '3'), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Blood-stained Gloves: effect1='{Bleed 1}{Draw 1}' -> [('bleed', '1'), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Blood-stained Gloves: effect2='{R_chain}{Damage 2}' -> [('r_chain', None), ('damage', '2')][0m
+[92m[DEBUG] Разыгрывается Blood-stained Gloves: effect1text='{Def_Y_Text 4}' -> [('def_y_text', '4')][0m
+[92m[DEBUG] Разыгрывается Blood-stained Gloves: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Blood-stained Gloves, эффекты к применению: [('bleed', '1'), ('draw', '1'), ('r_chain', None), ('damage', '2'), ('def_y_text', '4')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 2, потрачено: 0[0m
+[93m  Доступные для покупки: ['Cunning Move'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Resilience(4)', 'Defense(6)', 'Cunning Move(2)'][0m
+[93m  Куплена карта: Cunning Move[0m
+[93m  Blessing на ход: 2, потрачено: 2[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Resilience(4)', 'Defense(6)', 'Disarm(5)'][0m
+[94m
+=== Ход 8 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Toxin', 'Strike', 'Prayer', 'Basilisk Hide Armor'], deck=['Strike', 'Prayer'], discard=['Saint’s Mace', 'Strike', 'Prayer', 'Prayer', 'Knife', 'Assault', 'Unbreakable', 'Prayer', 'Infection', 'Heavy Plate'][0m
+[94m[PLAYER] P2 (начало): HP=36, Poison=0, Bleed=0[0m
+[94mHand(4): ['Toxin', 'Strike', 'Prayer', 'Basilisk Hide Armor'][0m
+[94mDeck(2): ['Strike', 'Prayer'][0m
+[94mDiscard(10): ['Saint’s Mace', 'Strike', 'Prayer', 'Prayer', 'Knife', 'Assault', 'Unbreakable', 'Prayer', 'Infection', 'Heavy Plate'][0m
+[94mTrash(2): ['Prayer', 'Prayer'][0m
+[94mHP: 36[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(4): ['Toxin', 'Strike', 'Prayer', 'Basilisk Hide Armor'][0m
+[94m         Deck(2): ['Strike', 'Prayer'][0m
+[94m         Discard(10): ['Saint’s Mace', 'Strike', 'Prayer', 'Prayer', 'Knife', 'Assault', 'Unbreakable', 'Prayer', 'Infection', 'Heavy Plate'][0m
+[94m         Gear(0): [][0m
+[94m         Trash(2): ['Prayer', 'Prayer'][0m
+[94m[DEBUG] Разыгрывается Toxin: effect1='{Blessing 2}{Poison 1}{Trash 1}' -> [('blessing', '2'), ('poison', '1'), ('trash', '1')][0m
+[94m[DEBUG] Разыгрывается Toxin: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Toxin: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Toxin: effect2text='{Discard X}TO{Poison X}' -> [[('discard', 0)], [('poison', 0)]][0m
+[94m[DEBUG] Разыгрывается карта Toxin, эффекты к применению: [('blessing', '2'), ('poison', '1'), ('trash', '1'), [('discard', 0)], [('poison', 0)]][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Basilisk Hide Armor: effect1='{Heal_poison 2}{Damage 2}' -> [('heal_poison', '2'), ('damage', '2')][0m
+[94m[DEBUG] Разыгрывается Basilisk Hide Armor: effect2='{Trash_this}TO{Heal_poison 3}{Poison 3}' -> [[('trash_this', None)], [('heal_poison', '3'), ('poison', '3')]][0m
+[94m[DEBUG] Разыгрывается Basilisk Hide Armor: effect1text='{Def_Y_Text 6}' -> [('def_y_text', '6')][0m
+[94m[DEBUG] Разыгрывается Basilisk Hide Armor: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Basilisk Hide Armor, эффекты к применению: [('heal_poison', '2'), ('damage', '2'), [('trash_this', None)], [('heal_poison', '3'), ('poison', '3')], ('def_y_text', '6')][0m
+[93m  Blessing на ход: 3, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Resilience(4)', 'Defense(6)', 'Disarm(5)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[92m
+=== Ход 9 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer'], deck=['Festering Wound', 'Heal Bash', 'Prayer', 'Prayer', 'Blade', 'Strike', 'Cunning Move', 'Insight', 'Readiness', 'Readiness', 'Prayer', 'Strike'], discard=[][0m
+[92m[PLAYER] P1 (начало): HP=19, Poison=4, Bleed=0[0m
+[92mHand(5): ['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer'][0m
+[92mDeck(12): ['Festering Wound', 'Heal Bash', 'Prayer', 'Prayer', 'Blade', 'Strike', 'Cunning Move', 'Insight', 'Readiness', 'Readiness', 'Prayer', 'Strike'][0m
+[92mDiscard(0): [][0m
+[92mTrash(1): ['Priestess'][0m
+[92mHP: 19[0m
+[92mPoison: 4[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer'][0m
+[92m         Deck(12): ['Festering Wound', 'Heal Bash', 'Prayer', 'Prayer', 'Blade', 'Strike', 'Cunning Move', 'Insight', 'Readiness', 'Readiness', 'Prayer', 'Strike'][0m
+[92m         Discard(0): [][0m
+[92m         Gear(2): ['Vampire’s Blessing Ring', 'Blood-stained Gloves'][0m
+[92m         Trash(1): ['Priestess'][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: ['Resilience'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Resilience(4)', 'Defense(6)', 'Disarm(5)'][0m
+[93m  Куплена карта: Resilience[0m
+[93m  Blessing на ход: 4, потрачено: 4[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Defense(6)', 'Disarm(5)', 'Alchemy(2)'][0m
+[94m
+=== Ход 9 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Prayer', 'Strike', 'Infection', 'Strike', 'Prayer'], deck=['Prayer', 'Assault', 'Priestess', 'Saint’s Mace', 'Heavy Plate', 'Toxin', 'Prayer', 'Knife', 'Prayer', 'Unbreakable'], discard=[][0m
+[94m[PLAYER] P2 (начало): HP=36, Poison=0, Bleed=0[0m
+[94mHand(5): ['Prayer', 'Strike', 'Infection', 'Strike', 'Prayer'][0m
+[94mDeck(10): ['Prayer', 'Assault', 'Priestess', 'Saint’s Mace', 'Heavy Plate', 'Toxin', 'Prayer', 'Knife', 'Prayer', 'Unbreakable'][0m
+[94mDiscard(0): [][0m
+[94mTrash(3): ['Prayer', 'Prayer', 'Strike'][0m
+[94mHP: 36[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Prayer', 'Strike', 'Infection', 'Strike', 'Prayer'][0m
+[94m         Deck(10): ['Prayer', 'Assault', 'Priestess', 'Saint’s Mace', 'Heavy Plate', 'Toxin', 'Prayer', 'Knife', 'Prayer', 'Unbreakable'][0m
+[94m         Discard(0): [][0m
+[94m         Gear(1): ['Basilisk Hide Armor'][0m
+[94m         Trash(3): ['Prayer', 'Prayer', 'Strike'][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Infection: effect1='{Damage 2}{Trash 1}' -> [('damage', '2'), ('trash', '1')][0m
+[94m[DEBUG] Разыгрывается Infection: effect2='{G_chain}{Poison 2}{Blessing 2}' -> [('g_chain', None), ('poison', '2'), ('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Infection: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Infection: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Infection, эффекты к применению: [('damage', '2'), ('trash', '1'), ('g_chain', None), ('poison', '2'), ('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: ['Alchemy'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Defense(6)', 'Disarm(5)', 'Alchemy(2)'][0m
+[93m  Куплена карта: Alchemy[0m
+[93m  Blessing на ход: 4, потрачено: 2[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Defense(6)', 'Disarm(5)', 'Cleave(7)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[92m
+=== Ход 10 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Strike', 'Prayer', 'Readiness', 'Readiness', 'Insight'], deck=['Festering Wound', 'Heal Bash', 'Prayer', 'Prayer', 'Blade', 'Strike', 'Cunning Move'], discard=['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Resilience', 'Blood-stained Gloves'][0m
+[92m[PLAYER] P1 (начало): HP=19, Poison=6, Bleed=0[0m
+[92mHand(5): ['Strike', 'Prayer', 'Readiness', 'Readiness', 'Insight'][0m
+[92mDeck(7): ['Festering Wound', 'Heal Bash', 'Prayer', 'Prayer', 'Blade', 'Strike', 'Cunning Move'][0m
+[92mDiscard(7): ['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Resilience', 'Blood-stained Gloves'][0m
+[92mTrash(1): ['Priestess'][0m
+[92mHP: 19[0m
+[92mPoison: 6[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Strike', 'Prayer', 'Readiness', 'Readiness', 'Insight'][0m
+[92m         Deck(7): ['Festering Wound', 'Heal Bash', 'Prayer', 'Prayer', 'Blade', 'Strike', 'Cunning Move'][0m
+[92m         Discard(7): ['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Resilience', 'Blood-stained Gloves'][0m
+[92m         Gear(1): ['Vampire’s Blessing Ring'][0m
+[92m         Trash(1): ['Priestess'][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1='{Heal 4}OR{Heal_bleed 2}or{Heal_poison 2}' -> [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')]][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2='{W_chain}{Ready 1}' -> [('w_chain', None), ('ready', '1')][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Readiness, эффекты к применению: [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')], ('w_chain', None), ('ready', '1')][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1='{Heal 4}OR{Heal_bleed 2}or{Heal_poison 2}' -> [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')]][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2='{W_chain}{Ready 1}' -> [('w_chain', None), ('ready', '1')][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Readiness, эффекты к применению: [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')], ('w_chain', None), ('ready', '1')][0m
+[92m[DEBUG] Разыгрывается Insight: effect1='{Damage 3}{Stun 1}' -> [('damage', '3'), ('stun', '1')][0m
+[92m[DEBUG] Разыгрывается Insight: effect2='{B_chain}{Spy 3}{Draw 1}' -> [('b_chain', None), ('spy', '3'), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Insight: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Insight: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Insight, эффекты к применению: [('damage', '3'), ('stun', '1'), ('b_chain', None), ('spy', '3'), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Cunning Move: effect1='{Heal 2}{Blessing 3}' -> [('heal', '2'), ('blessing', '3')][0m
+[92m[DEBUG] Разыгрывается Cunning Move: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается Cunning Move: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Cunning Move: effect2text='{If_discarded}{Draw 2}' -> [('if_discarded', None), ('draw', '2')][0m
+[92m[DEBUG] Разыгрывается карта Cunning Move, эффекты к применению: [('heal', '2'), ('blessing', '3'), ('if_discarded', None), ('draw', '2')][0m
+[93m  Blessing на ход: 1, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Defense(6)', 'Disarm(5)', 'Cleave(7)'][0m
+[94m
+=== Ход 10 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Unbreakable', 'Knife', 'Prayer', 'Toxin'], deck=['Prayer', 'Assault'], discard=['Strike', 'Infection', 'Strike', 'Prayer', 'Alchemy', 'Priestess', 'Prayer', 'Heavy Plate', 'Saint’s Mace', 'Priestess'][0m
+[94m[PLAYER] P2 (начало): HP=36, Poison=0, Bleed=0[0m
+[94mHand(4): ['Unbreakable', 'Knife', 'Prayer', 'Toxin'][0m
+[94mDeck(2): ['Prayer', 'Assault'][0m
+[94mDiscard(10): ['Strike', 'Infection', 'Strike', 'Prayer', 'Alchemy', 'Priestess', 'Prayer', 'Heavy Plate', 'Saint’s Mace', 'Priestess'][0m
+[94mTrash(4): ['Prayer', 'Prayer', 'Strike', 'Prayer'][0m
+[94mHP: 36[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(4): ['Unbreakable', 'Knife', 'Prayer', 'Toxin'][0m
+[94m         Deck(2): ['Prayer', 'Assault'][0m
+[94m         Discard(10): ['Strike', 'Infection', 'Strike', 'Prayer', 'Alchemy', 'Priestess', 'Prayer', 'Heavy Plate', 'Saint’s Mace', 'Priestess'][0m
+[94m         Gear(1): ['Basilisk Hide Armor'][0m
+[94m         Trash(4): ['Prayer', 'Prayer', 'Strike', 'Prayer'][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect1='{Heal 2}{Blessing 2}' -> [('heal', '2'), ('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect2text='{Trash_this}TO{Heal_bleed 3}{Heal_poison 3}' -> [[('trash_this', None)], [('heal_bleed', '3'), ('heal_poison', '3')]][0m
+[94m[DEBUG] Разыгрывается карта Unbreakable, эффекты к применению: [('heal', '2'), ('blessing', '2'), [('trash_this', None)], [('heal_bleed', '3'), ('heal_poison', '3')]][0m
+[94m[DEBUG] Разыгрывается Knife: effect1='{Bleed 1}{Damage 4}' -> [('bleed', '1'), ('damage', '4')][0m
+[94m[DEBUG] Разыгрывается Knife: effect2='{R_chain}{Defeat Monster} of Power 4 or less' -> [('r_chain', None), ('defeat', 'Monster')][0m
+[94m[DEBUG] Разыгрывается Knife: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Knife: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Knife, эффекты к применению: [('bleed', '1'), ('damage', '4'), ('r_chain', None), ('defeat', 'Monster')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Toxin: effect1='{Blessing 2}{Poison 1}{Trash 1}' -> [('blessing', '2'), ('poison', '1'), ('trash', '1')][0m
+[94m[DEBUG] Разыгрывается Toxin: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Toxin: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Toxin: effect2text='{Discard X}TO{Poison X}' -> [[('discard', 0)], [('poison', 0)]][0m
+[94m[DEBUG] Разыгрывается карта Toxin, эффекты к применению: [('blessing', '2'), ('poison', '1'), ('trash', '1'), [('discard', 0)], [('poison', 0)]][0m
+[93m  Blessing на ход: 5, потрачено: 0[0m
+[93m  Доступные для покупки: ['Disarm'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Defense(6)', 'Disarm(5)', 'Cleave(7)'][0m
+[93m  Куплена карта: Disarm[0m
+[93m  Blessing на ход: 5, потрачено: 5[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Defense(6)', 'Cleave(7)', 'Runeward Circlet(4)'][0m
+[92m
+=== Ход 11 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Strike', 'Blade', 'Prayer', 'Prayer', 'Heal Bash'], deck=['Festering Wound'], discard=['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Resilience', 'Blood-stained Gloves', 'Strike', 'Prayer', 'Readiness', 'Readiness', 'Insight', 'Cunning Move'][0m
+[92m[PLAYER] P1 (начало): HP=16, Poison=7, Bleed=0[0m
+[92mHand(5): ['Strike', 'Blade', 'Prayer', 'Prayer', 'Heal Bash'][0m
+[92mDeck(1): ['Festering Wound'][0m
+[92mDiscard(13): ['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Resilience', 'Blood-stained Gloves', 'Strike', 'Prayer', 'Readiness', 'Readiness', 'Insight', 'Cunning Move'][0m
+[92mTrash(1): ['Priestess'][0m
+[92mHP: 16[0m
+[92mPoison: 7[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Strike', 'Blade', 'Prayer', 'Prayer', 'Heal Bash'][0m
+[92m         Deck(1): ['Festering Wound'][0m
+[92m         Discard(13): ['Strike', 'Prayer', 'Prayer', 'Prayer', 'Prayer', 'Resilience', 'Blood-stained Gloves', 'Strike', 'Prayer', 'Readiness', 'Readiness', 'Insight', 'Cunning Move'][0m
+[92m         Gear(1): ['Vampire’s Blessing Ring'][0m
+[92m         Trash(1): ['Priestess'][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Blade: effect1='{Blessing 1}{Bleed 1}{Damage 1}' -> [('blessing', '1'), ('bleed', '1'), ('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Blade: effect2='{R_chain}{Damage 2}' -> [('r_chain', None), ('damage', '2')][0m
+[92m[DEBUG] Разыгрывается Blade: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Blade: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Blade, эффекты к применению: [('blessing', '1'), ('bleed', '1'), ('damage', '1'), ('r_chain', None), ('damage', '2')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect1='{Heal 3}{Blessing 2}' -> [('heal', '3'), ('blessing', '2')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect2='{W_chain}{Damage 4}' -> [('w_chain', None), ('damage', '4')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Heal Bash, эффекты к применению: [('heal', '3'), ('blessing', '2'), ('w_chain', None), ('damage', '4')][0m
+[93m  Blessing на ход: 5, потрачено: 0[0m
+[93m  Доступные для покупки: ['Runeward Circlet'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Defense(6)', 'Cleave(7)', 'Runeward Circlet(4)'][0m
+[93m  Куплена карта: Runeward Circlet[0m
+[93m  Blessing на ход: 5, потрачено: 4[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Defense(6)', 'Cleave(7)', 'Sacrifice(2)'][0m
+[94m
+=== Ход 11 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Assault', 'Prayer', 'Prayer', 'Priestess', 'Prayer'], deck=['Infection', 'Alchemy', 'Toxin', 'Heavy Plate', 'Disarm', 'Knife', 'Priestess', 'Unbreakable', 'Strike', 'Saint’s Mace', 'Prayer'], discard=['Basilisk Hide Armor'][0m
+[94m[PLAYER] P2 (начало): HP=35, Poison=0, Bleed=0[0m
+[94mHand(5): ['Assault', 'Prayer', 'Prayer', 'Priestess', 'Prayer'][0m
+[94mDeck(11): ['Infection', 'Alchemy', 'Toxin', 'Heavy Plate', 'Disarm', 'Knife', 'Priestess', 'Unbreakable', 'Strike', 'Saint’s Mace', 'Prayer'][0m
+[94mDiscard(1): ['Basilisk Hide Armor'][0m
+[94mTrash(5): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike'][0m
+[94mHP: 35[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Assault', 'Prayer', 'Prayer', 'Priestess', 'Prayer'][0m
+[94m         Deck(11): ['Infection', 'Alchemy', 'Toxin', 'Heavy Plate', 'Disarm', 'Knife', 'Priestess', 'Unbreakable', 'Strike', 'Saint’s Mace', 'Prayer'][0m
+[94m         Discard(1): ['Basilisk Hide Armor'][0m
+[94m         Gear(0): [][0m
+[94m         Trash(5): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike'][0m
+[94m[DEBUG] Разыгрывается Assault: effect1='{Blessing 2}{Damage 3}' -> [('blessing', '2'), ('damage', '3')][0m
+[94m[DEBUG] Разыгрывается Assault: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Assault: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Assault: effect2text='{R_chain}{Discard Monster} OR {Trash Trade Row 2}' -> [[('r_chain', None), ('discard', 'Monster')], []][0m
+[94m[DEBUG] Разыгрывается карта Assault, эффекты к применению: [('blessing', '2'), ('damage', '3'), [('r_chain', None), ('discard', 'Monster')], []][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Priestess: effect1='{Blessing 2}' -> [('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Priestess: effect2='{Trash_this}TO{Damage 2}{Discard Monster}' -> [[('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[94m[DEBUG] Разыгрывается карта Priestess, эффекты к применению: [('blessing', '2'), [('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 7, потрачено: 0[0m
+[93m  Доступные для покупки: ['Mjolnir', 'Divine Blade', 'Defense', 'Cleave', 'Sacrifice'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Defense(6)', 'Cleave(7)', 'Sacrifice(2)'][0m
+[93m  Куплена карта: Defense[0m
+[93m  Blessing на ход: 7, потрачено: 6[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Sacrifice(2)', 'Cleave(7)'][0m
+[92m
+=== Ход 12 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Festering Wound', 'Insight', 'Strike', 'Blade', 'Prayer'], deck=['Blood-stained Gloves', 'Prayer', 'Prayer', 'Runeward Circlet', 'Prayer', 'Prayer', 'Readiness', 'Prayer', 'Readiness', 'Heal Bash', 'Strike', 'Resilience', 'Strike', 'Prayer', 'Cunning Move'], discard=[][0m
+[92m[PLAYER] P1 (начало): HP=16, Poison=7, Bleed=0[0m
+[92mHand(5): ['Festering Wound', 'Insight', 'Strike', 'Blade', 'Prayer'][0m
+[92mDeck(15): ['Blood-stained Gloves', 'Prayer', 'Prayer', 'Runeward Circlet', 'Prayer', 'Prayer', 'Readiness', 'Prayer', 'Readiness', 'Heal Bash', 'Strike', 'Resilience', 'Strike', 'Prayer', 'Cunning Move'][0m
+[92mDiscard(0): [][0m
+[92mTrash(1): ['Priestess'][0m
+[92mHP: 16[0m
+[92mPoison: 7[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Festering Wound', 'Insight', 'Strike', 'Blade', 'Prayer'][0m
+[92m         Deck(15): ['Blood-stained Gloves', 'Prayer', 'Prayer', 'Runeward Circlet', 'Prayer', 'Prayer', 'Readiness', 'Prayer', 'Readiness', 'Heal Bash', 'Strike', 'Resilience', 'Strike', 'Prayer', 'Cunning Move'][0m
+[92m         Discard(0): [][0m
+[92m         Gear(1): ['Vampire’s Blessing Ring'][0m
+[92m         Trash(1): ['Priestess'][0m
+[92m[DEBUG] Разыгрывается Festering Wound: effect1='{Trash 1}{Poison 1}{Draw 1}' -> [('trash', '1'), ('poison', '1'), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Festering Wound: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается Festering Wound: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Festering Wound: effect2text='{G_chain}{Remove_poison X}TO{Damage X}' -> [[('g_chain', None), ('remove_poison', 0)], [('damage', 0)]][0m
+[92m[DEBUG] Разыгрывается карта Festering Wound, эффекты к применению: [('trash', '1'), ('poison', '1'), ('draw', '1'), [('g_chain', None), ('remove_poison', 0)], [('damage', 0)]][0m
+[92m[DEBUG] Разыгрывается Insight: effect1='{Damage 3}{Stun 1}' -> [('damage', '3'), ('stun', '1')][0m
+[92m[DEBUG] Разыгрывается Insight: effect2='{B_chain}{Spy 3}{Draw 1}' -> [('b_chain', None), ('spy', '3'), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Insight: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Insight: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Insight, эффекты к применению: [('damage', '3'), ('stun', '1'), ('b_chain', None), ('spy', '3'), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Blade: effect1='{Blessing 1}{Bleed 1}{Damage 1}' -> [('blessing', '1'), ('bleed', '1'), ('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Blade: effect2='{R_chain}{Damage 2}' -> [('r_chain', None), ('damage', '2')][0m
+[92m[DEBUG] Разыгрывается Blade: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Blade: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Blade, эффекты к применению: [('blessing', '1'), ('bleed', '1'), ('damage', '1'), ('r_chain', None), ('damage', '2')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Cunning Move: effect1='{Heal 2}{Blessing 3}' -> [('heal', '2'), ('blessing', '3')][0m
+[92m[DEBUG] Разыгрывается Cunning Move: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается Cunning Move: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Cunning Move: effect2text='{If_discarded}{Draw 2}' -> [('if_discarded', None), ('draw', '2')][0m
+[92m[DEBUG] Разыгрывается карта Cunning Move, эффекты к применению: [('heal', '2'), ('blessing', '3'), ('if_discarded', None), ('draw', '2')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 2, потрачено: 0[0m
+[93m  Доступные для покупки: ['Sacrifice'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Sacrifice(2)', 'Cleave(7)'][0m
+[93m  Куплена карта: Sacrifice[0m
+[93m  Blessing на ход: 2, потрачено: 2[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Cleave(7)', 'Wound(3)'][0m
+[94m
+=== Ход 12 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Saint’s Mace', 'Strike', 'Unbreakable', 'Priestess'], deck=['Infection', 'Alchemy', 'Toxin'], discard=['Basilisk Hide Armor', 'Assault', 'Prayer', 'Prayer', 'Prayer', 'Defense', 'Prayer', 'Knife', 'Disarm', 'Heavy Plate'][0m
+[94m[PLAYER] P2 (начало): HP=28, Poison=1, Bleed=0[0m
+[94mHand(4): ['Saint’s Mace', 'Strike', 'Unbreakable', 'Priestess'][0m
+[94mDeck(3): ['Infection', 'Alchemy', 'Toxin'][0m
+[94mDiscard(10): ['Basilisk Hide Armor', 'Assault', 'Prayer', 'Prayer', 'Prayer', 'Defense', 'Prayer', 'Knife', 'Disarm', 'Heavy Plate'][0m
+[94mTrash(6): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Priestess'][0m
+[94mHP: 28[0m
+[94mPoison: 1[0m
+[94mBleed: 0[0m
+[94m         Hand(4): ['Saint’s Mace', 'Strike', 'Unbreakable', 'Priestess'][0m
+[94m         Deck(3): ['Infection', 'Alchemy', 'Toxin'][0m
+[94m         Discard(10): ['Basilisk Hide Armor', 'Assault', 'Prayer', 'Prayer', 'Prayer', 'Defense', 'Prayer', 'Knife', 'Disarm', 'Heavy Plate'][0m
+[94m         Gear(0): [][0m
+[94m         Trash(6): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Priestess'][0m
+[94m[DEBUG] Разыгрывается Saint’s Mace: effect1='{Damage 2}{Draw 1}' -> [('damage', '2'), ('draw', '1')][0m
+[94m[DEBUG] Разыгрывается Saint’s Mace: effect2='{W_chain}{Blessing 2}{Heal 3}' -> [('w_chain', None), ('blessing', '2'), ('heal', '3')][0m
+[94m[DEBUG] Разыгрывается Saint’s Mace: effect1text='{Def_Y_Text 3}' -> [('def_y_text', '3')][0m
+[94m[DEBUG] Разыгрывается Saint’s Mace: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Saint’s Mace, эффекты к применению: [('damage', '2'), ('draw', '1'), ('w_chain', None), ('blessing', '2'), ('heal', '3'), ('def_y_text', '3')][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect1='{Heal 2}{Blessing 2}' -> [('heal', '2'), ('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect2text='{Trash_this}TO{Heal_bleed 3}{Heal_poison 3}' -> [[('trash_this', None)], [('heal_bleed', '3'), ('heal_poison', '3')]][0m
+[94m[DEBUG] Разыгрывается карта Unbreakable, эффекты к применению: [('heal', '2'), ('blessing', '2'), [('trash_this', None)], [('heal_bleed', '3'), ('heal_poison', '3')]][0m
+[94m[DEBUG] Разыгрывается Priestess: effect1='{Blessing 2}' -> [('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Priestess: effect2='{Trash_this}TO{Damage 2}{Discard Monster}' -> [[('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[94m[DEBUG] Разыгрывается карта Priestess, эффекты к применению: [('blessing', '2'), [('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[93m  Blessing на ход: 6, потрачено: 0[0m
+[93m  Доступные для покупки: ['Mjolnir', 'Divine Blade', 'Wound'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Cleave(7)', 'Wound(3)'][0m
+[93m  Куплена карта: Wound[0m
+[93m  Blessing на ход: 6, потрачено: 3[0m
+[93m  Доступные для покупки: ['Battle Rhythm'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Cleave(7)', 'Battle Rhythm(1)'][0m
+[93m  Куплена карта: Battle Rhythm[0m
+[93m  Blessing на ход: 6, потрачено: 4[0m
+[93m  Доступные для покупки: ['Push'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Cleave(7)', 'Push(2)'][0m
+[93m  Куплена карта: Push[0m
+[93m  Blessing на ход: 6, потрачено: 6[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Cleave(7)', 'Amulet of Despair(3)'][0m
+[92m
+=== Ход 13 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Strike', 'Resilience', 'Strike', 'Heal Bash', 'Readiness'], deck=['Blood-stained Gloves', 'Prayer', 'Prayer', 'Runeward Circlet', 'Prayer', 'Prayer', 'Readiness', 'Prayer'], discard=['Festering Wound', 'Insight', 'Blade', 'Prayer', 'Cunning Move', 'Prayer', 'Sacrifice'][0m
+[92m[PLAYER] P1 (начало): HP=15, Poison=7, Bleed=0[0m
+[92mHand(5): ['Strike', 'Resilience', 'Strike', 'Heal Bash', 'Readiness'][0m
+[92mDeck(8): ['Blood-stained Gloves', 'Prayer', 'Prayer', 'Runeward Circlet', 'Prayer', 'Prayer', 'Readiness', 'Prayer'][0m
+[92mDiscard(7): ['Festering Wound', 'Insight', 'Blade', 'Prayer', 'Cunning Move', 'Prayer', 'Sacrifice'][0m
+[92mTrash(2): ['Priestess', 'Strike'][0m
+[92mHP: 15[0m
+[92mPoison: 7[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Strike', 'Resilience', 'Strike', 'Heal Bash', 'Readiness'][0m
+[92m         Deck(8): ['Blood-stained Gloves', 'Prayer', 'Prayer', 'Runeward Circlet', 'Prayer', 'Prayer', 'Readiness', 'Prayer'][0m
+[92m         Discard(7): ['Festering Wound', 'Insight', 'Blade', 'Prayer', 'Cunning Move', 'Prayer', 'Sacrifice'][0m
+[92m         Gear(1): ['Vampire’s Blessing Ring'][0m
+[92m         Trash(2): ['Priestess', 'Strike'][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Resilience: effect1='{Draw 1}{Blessing 3}' -> [('draw', '1'), ('blessing', '3')][0m
+[92m[DEBUG] Разыгрывается Resilience: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается Resilience: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Resilience: effect2text='{If_discarded}{Heal 2}{Heal_bleed 2}{Heal_poison 2}' -> [('if_discarded', None), ('heal', '2'), ('heal_bleed', '2'), ('heal_poison', '2')][0m
+[92m[DEBUG] Разыгрывается карта Resilience, эффекты к применению: [('draw', '1'), ('blessing', '3'), ('if_discarded', None), ('heal', '2'), ('heal_bleed', '2'), ('heal_poison', '2')][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect1='{Heal 3}{Blessing 2}' -> [('heal', '3'), ('blessing', '2')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect2='{W_chain}{Damage 4}' -> [('w_chain', None), ('damage', '4')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Heal Bash, эффекты к применению: [('heal', '3'), ('blessing', '2'), ('w_chain', None), ('damage', '4')][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1='{Heal 4}OR{Heal_bleed 2}or{Heal_poison 2}' -> [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')]][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2='{W_chain}{Ready 1}' -> [('w_chain', None), ('ready', '1')][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Readiness, эффекты к применению: [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')], ('w_chain', None), ('ready', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 5, потрачено: 0[0m
+[93m  Доступные для покупки: ['Amulet of Despair'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Cleave(7)', 'Amulet of Despair(3)'][0m
+[93m  Куплена карта: Amulet of Despair[0m
+[93m  Blessing на ход: 5, потрачено: 3[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Cleave(7)', 'Gloves of Illusion(5)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[94m
+=== Ход 13 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Alchemy', 'Infection', 'Unbreakable', 'Battle Rhythm', 'Prayer'], deck=['Wound', 'Assault', 'Prayer', 'Toxin', 'Defense', 'Prayer', 'Disarm', 'Heavy Plate', 'Basilisk Hide Armor', 'Knife', 'Prayer', 'Push', 'Strike'], discard=['Saint’s Mace'][0m
+[94m[PLAYER] P2 (начало): HP=30, Poison=1, Bleed=0[0m
+[94mHand(5): ['Alchemy', 'Infection', 'Unbreakable', 'Battle Rhythm', 'Prayer'][0m
+[94mDeck(13): ['Wound', 'Assault', 'Prayer', 'Toxin', 'Defense', 'Prayer', 'Disarm', 'Heavy Plate', 'Basilisk Hide Armor', 'Knife', 'Prayer', 'Push', 'Strike'][0m
+[94mDiscard(1): ['Saint’s Mace'][0m
+[94mTrash(7): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Priestess', 'Priestess'][0m
+[94mHP: 30[0m
+[94mPoison: 1[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Alchemy', 'Infection', 'Unbreakable', 'Battle Rhythm', 'Prayer'][0m
+[94m         Deck(13): ['Wound', 'Assault', 'Prayer', 'Toxin', 'Defense', 'Prayer', 'Disarm', 'Heavy Plate', 'Basilisk Hide Armor', 'Knife', 'Prayer', 'Push', 'Strike'][0m
+[94m         Discard(1): ['Saint’s Mace'][0m
+[94m         Gear(0): [][0m
+[94m         Trash(7): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Priestess', 'Priestess'][0m
+[94m[DEBUG] Разыгрывается Alchemy: effect1='{Damage 2}{Poison 2}' -> [('damage', '2'), ('poison', '2')][0m
+[94m[DEBUG] Разыгрывается Alchemy: effect2='{Remove_poison X}TO{Blessing X} or {Damage X}' -> [[('remove_poison', 0)], [('blessing', 0), ('damage', 0)]][0m
+[94m[DEBUG] Разыгрывается Alchemy: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Alchemy: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Alchemy, эффекты к применению: [('damage', '2'), ('poison', '2'), [('remove_poison', 0)], [('blessing', 0), ('damage', 0)]][0m
+[94m[DEBUG] Разыгрывается Infection: effect1='{Damage 2}{Trash 1}' -> [('damage', '2'), ('trash', '1')][0m
+[94m[DEBUG] Разыгрывается Infection: effect2='{G_chain}{Poison 2}{Blessing 2}' -> [('g_chain', None), ('poison', '2'), ('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Infection: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Infection: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Infection, эффекты к применению: [('damage', '2'), ('trash', '1'), ('g_chain', None), ('poison', '2'), ('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect1='{Heal 2}{Blessing 2}' -> [('heal', '2'), ('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect2text='{Trash_this}TO{Heal_bleed 3}{Heal_poison 3}' -> [[('trash_this', None)], [('heal_bleed', '3'), ('heal_poison', '3')]][0m
+[94m[DEBUG] Разыгрывается карта Unbreakable, эффекты к применению: [('heal', '2'), ('blessing', '2'), [('trash_this', None)], [('heal_bleed', '3'), ('heal_poison', '3')]][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect1='{Stun 1}{Damage 2}' -> [('stun', '1'), ('damage', '2')][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect2='This turn your cards have Chain with the cards in the Trade Row' -> [][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Battle Rhythm: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Battle Rhythm, эффекты к применению: [('stun', '1'), ('damage', '2')][0m
+[93m  Blessing на ход: 5, потрачено: 0[0m
+[93m  Доступные для покупки: ['Gloves of Illusion'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Cleave(7)', 'Gloves of Illusion(5)'][0m
+[93m  Куплена карта: Gloves of Illusion[0m
+[93m  Blessing на ход: 5, потрачено: 5[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Cleave(7)', 'Defense(6)'][0m
+[92m
+=== Ход 14 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Readiness', 'Prayer', 'Runeward Circlet', 'Prayer'], deck=['Blood-stained Gloves', 'Prayer'], discard=['Festering Wound', 'Insight', 'Blade', 'Prayer', 'Cunning Move', 'Prayer', 'Sacrifice', 'Strike', 'Resilience', 'Strike', 'Heal Bash', 'Readiness', 'Prayer', 'Amulet of Despair', 'Priestess', 'Prayer'][0m
+[92m[PLAYER] P1 (начало): HP=12, Poison=11, Bleed=0[0m
+[92mHand(4): ['Readiness', 'Prayer', 'Runeward Circlet', 'Prayer'][0m
+[92mDeck(2): ['Blood-stained Gloves', 'Prayer'][0m
+[92mDiscard(16): ['Festering Wound', 'Insight', 'Blade', 'Prayer', 'Cunning Move', 'Prayer', 'Sacrifice', 'Strike', 'Resilience', 'Strike', 'Heal Bash', 'Readiness', 'Prayer', 'Amulet of Despair', 'Priestess', 'Prayer'][0m
+[92mTrash(2): ['Priestess', 'Strike'][0m
+[92mHP: 12[0m
+[92mPoison: 11[0m
+[92mBleed: 0[0m
+[92m         Hand(4): ['Readiness', 'Prayer', 'Runeward Circlet', 'Prayer'][0m
+[92m         Deck(2): ['Blood-stained Gloves', 'Prayer'][0m
+[92m         Discard(16): ['Festering Wound', 'Insight', 'Blade', 'Prayer', 'Cunning Move', 'Prayer', 'Sacrifice', 'Strike', 'Resilience', 'Strike', 'Heal Bash', 'Readiness', 'Prayer', 'Amulet of Despair', 'Priestess', 'Prayer'][0m
+[92m         Gear(1): ['Vampire’s Blessing Ring'][0m
+[92m         Trash(2): ['Priestess', 'Strike'][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1='{Heal 4}OR{Heal_bleed 2}or{Heal_poison 2}' -> [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')]][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2='{W_chain}{Ready 1}' -> [('w_chain', None), ('ready', '1')][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Readiness, эффекты к применению: [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')], ('w_chain', None), ('ready', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Runeward Circlet: effect1='{Blessing 2} or {Draw 1}' -> [('blessing', '2'), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Runeward Circlet: effect2='{G_chain}{Trash 1}' -> [('g_chain', None), ('trash', '1')][0m
+[92m[DEBUG] Разыгрывается Runeward Circlet: effect1text='{Def_Y_Text 4}' -> [('def_y_text', '4')][0m
+[92m[DEBUG] Разыгрывается Runeward Circlet: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Runeward Circlet, эффекты к применению: [('blessing', '2'), ('draw', '1'), ('g_chain', None), ('trash', '1'), ('def_y_text', '4')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Cleave(7)', 'Defense(6)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[94m
+=== Ход 14 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Strike', 'Push', 'Prayer', 'Knife', 'Basilisk Hide Armor'], deck=['Wound', 'Assault', 'Prayer', 'Toxin', 'Defense', 'Prayer', 'Disarm', 'Heavy Plate'], discard=['Saint’s Mace', 'Alchemy', 'Infection', 'Unbreakable', 'Battle Rhythm', 'Gloves of Illusion'][0m
+[94m[PLAYER] P2 (начало): HP=32, Poison=1, Bleed=0[0m
+[94mHand(5): ['Strike', 'Push', 'Prayer', 'Knife', 'Basilisk Hide Armor'][0m
+[94mDeck(8): ['Wound', 'Assault', 'Prayer', 'Toxin', 'Defense', 'Prayer', 'Disarm', 'Heavy Plate'][0m
+[94mDiscard(6): ['Saint’s Mace', 'Alchemy', 'Infection', 'Unbreakable', 'Battle Rhythm', 'Gloves of Illusion'][0m
+[94mTrash(8): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Priestess', 'Priestess', 'Prayer'][0m
+[94mHP: 32[0m
+[94mPoison: 1[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Strike', 'Push', 'Prayer', 'Knife', 'Basilisk Hide Armor'][0m
+[94m         Deck(8): ['Wound', 'Assault', 'Prayer', 'Toxin', 'Defense', 'Prayer', 'Disarm', 'Heavy Plate'][0m
+[94m         Discard(6): ['Saint’s Mace', 'Alchemy', 'Infection', 'Unbreakable', 'Battle Rhythm', 'Gloves of Illusion'][0m
+[94m         Gear(0): [][0m
+[94m         Trash(8): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Priestess', 'Priestess', 'Prayer'][0m
+[94m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[94m[DEBUG] Разыгрывается Push: effect1='{Blessing 2}' -> [('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Push: effect2='{Trash_this}TOSwap non-base card from play area with any card in the Trade Row and put it to you discard' -> [[('trash_this', None)], []][0m
+[94m[DEBUG] Разыгрывается Push: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Push: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Push, эффекты к применению: [('blessing', '2'), [('trash_this', None)], []][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Knife: effect1='{Bleed 1}{Damage 4}' -> [('bleed', '1'), ('damage', '4')][0m
+[94m[DEBUG] Разыгрывается Knife: effect2='{R_chain}{Defeat Monster} of Power 4 or less' -> [('r_chain', None), ('defeat', 'Monster')][0m
+[94m[DEBUG] Разыгрывается Knife: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Knife: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Knife, эффекты к применению: [('bleed', '1'), ('damage', '4'), ('r_chain', None), ('defeat', 'Monster')][0m
+[94m[DEBUG] Разыгрывается Basilisk Hide Armor: effect1='{Heal_poison 2}{Damage 2}' -> [('heal_poison', '2'), ('damage', '2')][0m
+[94m[DEBUG] Разыгрывается Basilisk Hide Armor: effect2='{Trash_this}TO{Heal_poison 3}{Poison 3}' -> [[('trash_this', None)], [('heal_poison', '3'), ('poison', '3')]][0m
+[94m[DEBUG] Разыгрывается Basilisk Hide Armor: effect1text='{Def_Y_Text 6}' -> [('def_y_text', '6')][0m
+[94m[DEBUG] Разыгрывается Basilisk Hide Armor: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Basilisk Hide Armor, эффекты к применению: [('heal_poison', '2'), ('damage', '2'), [('trash_this', None)], [('heal_poison', '3'), ('poison', '3')], ('def_y_text', '6')][0m
+[93m  Blessing на ход: 3, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Cleave(7)', 'Defense(6)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[92m
+=== Ход 15 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Blood-stained Gloves', 'Festering Wound', 'Amulet of Despair', 'Prayer', 'Readiness'], deck=['Prayer', 'Blade', 'Priestess', 'Resilience', 'Strike', 'Priestess', 'Heal Bash', 'Readiness', 'Insight', 'Cunning Move', 'Strike', 'Prayer', 'Prayer', 'Sacrifice', 'Prayer', 'Prayer', 'Priestess'], discard=['Runeward Circlet'][0m
+[92m[PLAYER] P1 (начало): HP=8, Poison=11, Bleed=0[0m
+[92mHand(5): ['Blood-stained Gloves', 'Festering Wound', 'Amulet of Despair', 'Prayer', 'Readiness'][0m
+[92mDeck(17): ['Prayer', 'Blade', 'Priestess', 'Resilience', 'Strike', 'Priestess', 'Heal Bash', 'Readiness', 'Insight', 'Cunning Move', 'Strike', 'Prayer', 'Prayer', 'Sacrifice', 'Prayer', 'Prayer', 'Priestess'][0m
+[92mDiscard(1): ['Runeward Circlet'][0m
+[92mTrash(3): ['Priestess', 'Strike', 'Prayer'][0m
+[92mHP: 8[0m
+[92mPoison: 11[0m
+[92mBleed: 0[0m
+[92m         Hand(5): ['Blood-stained Gloves', 'Festering Wound', 'Amulet of Despair', 'Prayer', 'Readiness'][0m
+[92m         Deck(17): ['Prayer', 'Blade', 'Priestess', 'Resilience', 'Strike', 'Priestess', 'Heal Bash', 'Readiness', 'Insight', 'Cunning Move', 'Strike', 'Prayer', 'Prayer', 'Sacrifice', 'Prayer', 'Prayer', 'Priestess'][0m
+[92m         Discard(1): ['Runeward Circlet'][0m
+[92m         Gear(1): ['Vampire’s Blessing Ring'][0m
+[92m         Trash(3): ['Priestess', 'Strike', 'Prayer'][0m
+[92m[DEBUG] Разыгрывается Blood-stained Gloves: effect1='{Bleed 1}{Draw 1}' -> [('bleed', '1'), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Blood-stained Gloves: effect2='{R_chain}{Damage 2}' -> [('r_chain', None), ('damage', '2')][0m
+[92m[DEBUG] Разыгрывается Blood-stained Gloves: effect1text='{Def_Y_Text 4}' -> [('def_y_text', '4')][0m
+[92m[DEBUG] Разыгрывается Blood-stained Gloves: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Blood-stained Gloves, эффекты к применению: [('bleed', '1'), ('draw', '1'), ('r_chain', None), ('damage', '2'), ('def_y_text', '4')][0m
+[92m[DEBUG] Разыгрывается Festering Wound: effect1='{Trash 1}{Poison 1}{Draw 1}' -> [('trash', '1'), ('poison', '1'), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Festering Wound: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается Festering Wound: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Festering Wound: effect2text='{G_chain}{Remove_poison X}TO{Damage X}' -> [[('g_chain', None), ('remove_poison', 0)], [('damage', 0)]][0m
+[92m[DEBUG] Разыгрывается карта Festering Wound, эффекты к применению: [('trash', '1'), ('poison', '1'), ('draw', '1'), [('g_chain', None), ('remove_poison', 0)], [('damage', 0)]][0m
+[92m[DEBUG] Разыгрывается Amulet of Despair: effect1='{Trash 1}' -> [('trash', '1')][0m
+[92m[DEBUG] Разыгрывается Amulet of Despair: effect2='{Trash_this}TO{Poison 3}' -> [[('trash_this', None)], [('poison', '3')]][0m
+[92m[DEBUG] Разыгрывается Amulet of Despair: effect1text='{Def_N_Text 3}' -> [('def_n_text', '3')][0m
+[92m[DEBUG] Разыгрывается Amulet of Despair: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Amulet of Despair, эффекты к применению: [('trash', '1'), [('trash_this', None)], [('poison', '3')], ('def_n_text', '3')][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1='{Heal 4}OR{Heal_bleed 2}or{Heal_poison 2}' -> [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')]][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2='{W_chain}{Ready 1}' -> [('w_chain', None), ('ready', '1')][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Readiness, эффекты к применению: [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')], ('w_chain', None), ('ready', '1')][0m
+[92m[ERROR] Карта Prayer не в руке, но пытается разыграться! Пропуск.[0m
+[93m  Blessing на ход: 1, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Cleave(7)', 'Defense(6)'][0m
+[94m
+=== Ход 15 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Heavy Plate', 'Disarm', 'Prayer', 'Defense', 'Toxin'], deck=['Wound', 'Assault', 'Prayer'], discard=['Saint’s Mace', 'Alchemy', 'Infection', 'Unbreakable', 'Battle Rhythm', 'Gloves of Illusion', 'Strike', 'Push', 'Prayer', 'Knife', 'Priestess'][0m
+[94m[PLAYER] P2 (начало): HP=31, Poison=1, Bleed=0[0m
+[94mHand(5): ['Heavy Plate', 'Disarm', 'Prayer', 'Defense', 'Toxin'][0m
+[94mDeck(3): ['Wound', 'Assault', 'Prayer'][0m
+[94mDiscard(11): ['Saint’s Mace', 'Alchemy', 'Infection', 'Unbreakable', 'Battle Rhythm', 'Gloves of Illusion', 'Strike', 'Push', 'Prayer', 'Knife', 'Priestess'][0m
+[94mTrash(8): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Priestess', 'Priestess', 'Prayer'][0m
+[94mHP: 31[0m
+[94mPoison: 1[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Heavy Plate', 'Disarm', 'Prayer', 'Defense', 'Toxin'][0m
+[94m         Deck(3): ['Wound', 'Assault', 'Prayer'][0m
+[94m         Discard(11): ['Saint’s Mace', 'Alchemy', 'Infection', 'Unbreakable', 'Battle Rhythm', 'Gloves of Illusion', 'Strike', 'Push', 'Prayer', 'Knife', 'Priestess'][0m
+[94m         Gear(1): ['Basilisk Hide Armor'][0m
+[94m         Trash(8): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Priestess', 'Priestess', 'Prayer'][0m
+[94m[DEBUG] Разыгрывается Heavy Plate: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Heavy Plate: effect2='{Trash_this}TO{Defeat Monster}' -> [[('trash_this', None)], [('defeat', 'Monster')]][0m
+[94m[DEBUG] Разыгрывается Heavy Plate: effect1text='{Def_Y_Text 5}' -> [('def_y_text', '5')][0m
+[94m[DEBUG] Разыгрывается Heavy Plate: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Heavy Plate, эффекты к применению: [('blessing', '1'), [('trash_this', None)], [('defeat', 'Monster')], ('def_y_text', '5')][0m
+[94m[DEBUG] Разыгрывается Disarm: effect1='{Damage 6}{Stun 1}' -> [('damage', '6'), ('stun', '1')][0m
+[94m[DEBUG] Разыгрывается Disarm: effect2='{B_chain}{Steal 1}' -> [('b_chain', None), ('steal', '1')][0m
+[94m[DEBUG] Разыгрывается Disarm: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Disarm: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Disarm, эффекты к применению: [('damage', '6'), ('stun', '1'), ('b_chain', None), ('steal', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Defense: effect1='{Heal 6}or{Heal_bleed 3}or{Heal_poison 3}' -> [('heal', '6'), ('heal_bleed', '3'), ('heal_poison', '3')][0m
+[94m[DEBUG] Разыгрывается Defense: effect2='{W_chain}If you Heal 10 or more this turn TO{Damage 7}' -> [[('w_chain', None)], [('damage', '7')]][0m
+[94m[DEBUG] Разыгрывается Defense: effect1text='{Draw 2}' -> [('draw', '2')][0m
+[94m[DEBUG] Разыгрывается Defense: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Defense, эффекты к применению: [('heal', '6'), ('heal_bleed', '3'), ('heal_poison', '3'), [('w_chain', None)], [('damage', '7')], ('draw', '2')][0m
+[94m[DEBUG] Разыгрывается Toxin: effect1='{Blessing 2}{Poison 1}{Trash 1}' -> [('blessing', '2'), ('poison', '1'), ('trash', '1')][0m
+[94m[DEBUG] Разыгрывается Toxin: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Toxin: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Toxin: effect2text='{Discard X}TO{Poison X}' -> [[('discard', 0)], [('poison', 0)]][0m
+[94m[DEBUG] Разыгрывается карта Toxin, эффекты к применению: [('blessing', '2'), ('poison', '1'), ('trash', '1'), [('discard', 0)], [('poison', 0)]][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Cleave(7)', 'Defense(6)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[92m
+=== Ход 16 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Sacrifice', 'Prayer', 'Prayer', 'Strike'], deck=['Prayer', 'Blade', 'Priestess', 'Resilience', 'Strike', 'Priestess', 'Heal Bash', 'Readiness', 'Insight'], discard=['Runeward Circlet', 'Festering Wound', 'Readiness', 'Priestess', 'Blood-stained Gloves', 'Prayer'][0m
+[92m[PLAYER] P1 (начало): HP=6, Poison=12, Bleed=0[0m
+[92mHand(4): ['Sacrifice', 'Prayer', 'Prayer', 'Strike'][0m
+[92mDeck(9): ['Prayer', 'Blade', 'Priestess', 'Resilience', 'Strike', 'Priestess', 'Heal Bash', 'Readiness', 'Insight'][0m
+[92mDiscard(6): ['Runeward Circlet', 'Festering Wound', 'Readiness', 'Priestess', 'Blood-stained Gloves', 'Prayer'][0m
+[92mTrash(5): ['Priestess', 'Strike', 'Prayer', 'Prayer', 'Prayer'][0m
+[92mHP: 6[0m
+[92mPoison: 12[0m
+[92mBleed: 0[0m
+[92m         Hand(4): ['Sacrifice', 'Prayer', 'Prayer', 'Strike'][0m
+[92m         Deck(9): ['Prayer', 'Blade', 'Priestess', 'Resilience', 'Strike', 'Priestess', 'Heal Bash', 'Readiness', 'Insight'][0m
+[92m         Discard(6): ['Runeward Circlet', 'Festering Wound', 'Readiness', 'Priestess', 'Blood-stained Gloves', 'Prayer'][0m
+[92m         Gear(2): ['Vampire’s Blessing Ring', 'Amulet of Despair'][0m
+[92m         Trash(5): ['Priestess', 'Strike', 'Prayer', 'Prayer', 'Prayer'][0m
+[92m[DEBUG] Разыгрывается Sacrifice: effect1='{Bleed 2}OR{Damage 3}' -> [[('bleed', '2')], [('damage', '3')]][0m
+[92m[DEBUG] Разыгрывается Sacrifice: effect2='{R_chain}{Damage 3}' -> [('r_chain', None), ('damage', '3')][0m
+[92m[DEBUG] Разыгрывается Sacrifice: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Sacrifice: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Sacrifice, эффекты к применению: [[('bleed', '2')], [('damage', '3')], ('r_chain', None), ('damage', '3')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[93m  Blessing на ход: 2, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Cleave(7)', 'Defense(6)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[94m
+=== Ход 16 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Prayer', 'Assault', 'Wound', 'Push', 'Unbreakable'], deck=['Infection', 'Defense', 'Alchemy', 'Saint’s Mace', 'Priestess', 'Battle Rhythm', 'Priestess', 'Toxin', 'Prayer', 'Cunning Move', 'Priestess', 'Gloves of Illusion', 'Prayer', 'Knife', 'Disarm'], discard=[][0m
+[94m[PLAYER] P2 (начало): HP=37, Poison=0, Bleed=0[0m
+[94mHand(5): ['Prayer', 'Assault', 'Wound', 'Push', 'Unbreakable'][0m
+[94mDeck(15): ['Infection', 'Defense', 'Alchemy', 'Saint’s Mace', 'Priestess', 'Battle Rhythm', 'Priestess', 'Toxin', 'Prayer', 'Cunning Move', 'Priestess', 'Gloves of Illusion', 'Prayer', 'Knife', 'Disarm'][0m
+[94mDiscard(0): [][0m
+[94mTrash(9): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Priestess', 'Priestess', 'Prayer', 'Strike'][0m
+[94mHP: 37[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(5): ['Prayer', 'Assault', 'Wound', 'Push', 'Unbreakable'][0m
+[94m         Deck(15): ['Infection', 'Defense', 'Alchemy', 'Saint’s Mace', 'Priestess', 'Battle Rhythm', 'Priestess', 'Toxin', 'Prayer', 'Cunning Move', 'Priestess', 'Gloves of Illusion', 'Prayer', 'Knife', 'Disarm'][0m
+[94m         Discard(0): [][0m
+[94m         Gear(2): ['Basilisk Hide Armor', 'Heavy Plate'][0m
+[94m         Trash(9): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Priestess', 'Priestess', 'Prayer', 'Strike'][0m
+[94m[DEBUG] Разыгрывается Prayer: effect1='{Blessing 1}' -> [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Prayer: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Prayer, эффекты к применению: [('blessing', '1')][0m
+[94m[DEBUG] Разыгрывается Assault: effect1='{Blessing 2}{Damage 3}' -> [('blessing', '2'), ('damage', '3')][0m
+[94m[DEBUG] Разыгрывается Assault: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Assault: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Assault: effect2text='{R_chain}{Discard Monster} OR {Trash Trade Row 2}' -> [[('r_chain', None), ('discard', 'Monster')], []][0m
+[94m[DEBUG] Разыгрывается карта Assault, эффекты к применению: [('blessing', '2'), ('damage', '3'), [('r_chain', None), ('discard', 'Monster')], []][0m
+[94m[DEBUG] Разыгрывается Wound: effect1='{Blessing 2}{Bleed 2}' -> [('blessing', '2'), ('bleed', '2')][0m
+[94m[DEBUG] Разыгрывается Wound: effect2='{R_chain}{Destroy}' -> [('r_chain', None), ('destroy', None)][0m
+[94m[DEBUG] Разыгрывается Wound: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Wound: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Wound, эффекты к применению: [('blessing', '2'), ('bleed', '2'), ('r_chain', None), ('destroy', None)][0m
+[94m[DEBUG] Разыгрывается Push: effect1='{Blessing 2}' -> [('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Push: effect2='{Trash_this}TOSwap non-base card from play area with any card in the Trade Row and put it to you discard' -> [[('trash_this', None)], []][0m
+[94m[DEBUG] Разыгрывается Push: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Push: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Push, эффекты к применению: [('blessing', '2'), [('trash_this', None)], []][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect1='{Heal 2}{Blessing 2}' -> [('heal', '2'), ('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect2='None' -> [][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Unbreakable: effect2text='{Trash_this}TO{Heal_bleed 3}{Heal_poison 3}' -> [[('trash_this', None)], [('heal_bleed', '3'), ('heal_poison', '3')]][0m
+[94m[DEBUG] Разыгрывается карта Unbreakable, эффекты к применению: [('heal', '2'), ('blessing', '2'), [('trash_this', None)], [('heal_bleed', '3'), ('heal_poison', '3')]][0m
+[93m  Blessing на ход: 9, потрачено: 0[0m
+[93m  Доступные для покупки: ['Mjolnir', 'Divine Blade', 'Cleave', 'Cleave', 'Defense'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Cleave(7)', 'Defense(6)'][0m
+[93m  Куплена карта: Cleave[0m
+[93m  Blessing на ход: 9, потрачено: 7[0m
+[93m  Доступные для покупки: ['Deep Cut'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Defense(6)', 'Deep Cut(2)'][0m
+[93m  Куплена карта: Deep Cut[0m
+[93m  Blessing на ход: 9, потрачено: 9[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Defense(6)', 'Desperate Thrust(3)'][0m
+[92m
+=== Ход 17 (P1) ===[0m
+[92m[DEBUG] P1 старт хода: hand=['Insight', 'Readiness', 'Heal Bash', 'Priestess', 'Strike'], deck=['Prayer', 'Blade', 'Priestess', 'Resilience'], discard=['Runeward Circlet', 'Festering Wound', 'Readiness', 'Priestess', 'Blood-stained Gloves', 'Prayer', 'Sacrifice', 'Prayer', 'Prayer', 'Strike', 'Priestess'][0m
+[92m[PLAYER] P1 (начало): HP=1, Poison=12, Bleed=1[0m
+[92mHand(5): ['Insight', 'Readiness', 'Heal Bash', 'Priestess', 'Strike'][0m
+[92mDeck(4): ['Prayer', 'Blade', 'Priestess', 'Resilience'][0m
+[92mDiscard(11): ['Runeward Circlet', 'Festering Wound', 'Readiness', 'Priestess', 'Blood-stained Gloves', 'Prayer', 'Sacrifice', 'Prayer', 'Prayer', 'Strike', 'Priestess'][0m
+[92mTrash(5): ['Priestess', 'Strike', 'Prayer', 'Prayer', 'Prayer'][0m
+[92mHP: 1[0m
+[92mPoison: 12[0m
+[92mBleed: 1[0m
+[92m         Hand(5): ['Insight', 'Readiness', 'Heal Bash', 'Priestess', 'Strike'][0m
+[92m         Deck(4): ['Prayer', 'Blade', 'Priestess', 'Resilience'][0m
+[92m         Discard(11): ['Runeward Circlet', 'Festering Wound', 'Readiness', 'Priestess', 'Blood-stained Gloves', 'Prayer', 'Sacrifice', 'Prayer', 'Prayer', 'Strike', 'Priestess'][0m
+[92m         Gear(1): ['Amulet of Despair'][0m
+[92m         Trash(5): ['Priestess', 'Strike', 'Prayer', 'Prayer', 'Prayer'][0m
+[92m[DEBUG] Разыгрывается Insight: effect1='{Damage 3}{Stun 1}' -> [('damage', '3'), ('stun', '1')][0m
+[92m[DEBUG] Разыгрывается Insight: effect2='{B_chain}{Spy 3}{Draw 1}' -> [('b_chain', None), ('spy', '3'), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Insight: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Insight: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Insight, эффекты к применению: [('damage', '3'), ('stun', '1'), ('b_chain', None), ('spy', '3'), ('draw', '1')][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1='{Heal 4}OR{Heal_bleed 2}or{Heal_poison 2}' -> [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')]][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2='{W_chain}{Ready 1}' -> [('w_chain', None), ('ready', '1')][0m
+[92m[DEBUG] Разыгрывается Readiness: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Readiness: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Readiness, эффекты к применению: [[('heal', '4')], [('heal_bleed', '2'), ('heal_poison', '2')], ('w_chain', None), ('ready', '1')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect1='{Heal 3}{Blessing 2}' -> [('heal', '3'), ('blessing', '2')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect2='{W_chain}{Damage 4}' -> [('w_chain', None), ('damage', '4')][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Heal Bash: effect2text='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Heal Bash, эффекты к применению: [('heal', '3'), ('blessing', '2'), ('w_chain', None), ('damage', '4')][0m
+[92m[DEBUG] Разыгрывается Priestess: effect1='{Blessing 2}' -> [('blessing', '2')][0m
+[92m[DEBUG] Разыгрывается Priestess: effect2='{Trash_this}TO{Damage 2}{Discard Monster}' -> [[('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[92m[DEBUG] Разыгрывается карта Priestess, эффекты к применению: [('blessing', '2'), [('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[92m[DEBUG] Разыгрывается Strike: effect1='{Damage 1}' -> [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Strike: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается карта Strike, эффекты к применению: [('damage', '1')][0m
+[92m[DEBUG] Разыгрывается Resilience: effect1='{Draw 1}{Blessing 3}' -> [('draw', '1'), ('blessing', '3')][0m
+[92m[DEBUG] Разыгрывается Resilience: effect2='None' -> [][0m
+[92m[DEBUG] Разыгрывается Resilience: effect1text='None' -> [][0m
+[92m[DEBUG] Разыгрывается Resilience: effect2text='{If_discarded}{Heal 2}{Heal_bleed 2}{Heal_poison 2}' -> [('if_discarded', None), ('heal', '2'), ('heal_bleed', '2'), ('heal_poison', '2')][0m
+[92m[DEBUG] Разыгрывается карта Resilience, эффекты к применению: [('draw', '1'), ('blessing', '3'), ('if_discarded', None), ('heal', '2'), ('heal_bleed', '2'), ('heal_poison', '2')][0m
+[92m[DEBUG] Разыгрывается Priestess: effect1='{Blessing 2}' -> [('blessing', '2')][0m
+[92m[DEBUG] Разыгрывается Priestess: effect2='{Trash_this}TO{Damage 2}{Discard Monster}' -> [[('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[92m[DEBUG] Разыгрывается карта Priestess, эффекты к применению: [('blessing', '2'), [('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[93m  Blessing на ход: 4, потрачено: 0[0m
+[93m  Доступные для покупки: ['Desperate Thrust'][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Defense(6)', 'Desperate Thrust(3)'][0m
+[93m  Куплена карта: Desperate Thrust[0m
+[93m  Blessing на ход: 4, потрачено: 3[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Defense(6)', 'Poisoned Blood(4)'][0m
+[94m
+=== Ход 17 (P2) ===[0m
+[94m[DEBUG] P2 старт хода: hand=['Disarm', 'Knife', 'Gloves of Illusion', 'Priestess'], deck=['Infection', 'Defense', 'Alchemy', 'Saint’s Mace', 'Priestess', 'Battle Rhythm', 'Priestess', 'Prayer'], discard=['Prayer', 'Assault', 'Wound', 'Push', 'Unbreakable', 'Cleave', 'Deep Cut', 'Prayer', 'Cunning Move', 'Toxin', 'Basilisk Hide Armor'][0m
+[94m[PLAYER] P2 (начало): HP=39, Poison=0, Bleed=0[0m
+[94mHand(4): ['Disarm', 'Knife', 'Gloves of Illusion', 'Priestess'][0m
+[94mDeck(8): ['Infection', 'Defense', 'Alchemy', 'Saint’s Mace', 'Priestess', 'Battle Rhythm', 'Priestess', 'Prayer'][0m
+[94mDiscard(11): ['Prayer', 'Assault', 'Wound', 'Push', 'Unbreakable', 'Cleave', 'Deep Cut', 'Prayer', 'Cunning Move', 'Toxin', 'Basilisk Hide Armor'][0m
+[94mTrash(9): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Priestess', 'Priestess', 'Prayer', 'Strike'][0m
+[94mHP: 39[0m
+[94mPoison: 0[0m
+[94mBleed: 0[0m
+[94m         Hand(4): ['Disarm', 'Knife', 'Gloves of Illusion', 'Priestess'][0m
+[94m         Deck(8): ['Infection', 'Defense', 'Alchemy', 'Saint’s Mace', 'Priestess', 'Battle Rhythm', 'Priestess', 'Prayer'][0m
+[94m         Discard(11): ['Prayer', 'Assault', 'Wound', 'Push', 'Unbreakable', 'Cleave', 'Deep Cut', 'Prayer', 'Cunning Move', 'Toxin', 'Basilisk Hide Armor'][0m
+[94m         Gear(1): ['Heavy Plate'][0m
+[94m         Trash(9): ['Prayer', 'Prayer', 'Strike', 'Prayer', 'Strike', 'Priestess', 'Priestess', 'Prayer', 'Strike'][0m
+[94m[DEBUG] Разыгрывается Disarm: effect1='{Damage 6}{Stun 1}' -> [('damage', '6'), ('stun', '1')][0m
+[94m[DEBUG] Разыгрывается Disarm: effect2='{B_chain}{Steal 1}' -> [('b_chain', None), ('steal', '1')][0m
+[94m[DEBUG] Разыгрывается Disarm: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Disarm: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Disarm, эффекты к применению: [('damage', '6'), ('stun', '1'), ('b_chain', None), ('steal', '1')][0m
+[94m[DEBUG] Разыгрывается Knife: effect1='{Bleed 1}{Damage 4}' -> [('bleed', '1'), ('damage', '4')][0m
+[94m[DEBUG] Разыгрывается Knife: effect2='{R_chain}{Defeat Monster} of Power 4 or less' -> [('r_chain', None), ('defeat', 'Monster')][0m
+[94m[DEBUG] Разыгрывается Knife: effect1text='None' -> [][0m
+[94m[DEBUG] Разыгрывается Knife: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Knife, эффекты к применению: [('bleed', '1'), ('damage', '4'), ('r_chain', None), ('defeat', 'Monster')][0m
+[94m[DEBUG] Разыгрывается Gloves of Illusion: effect1='Until your turn ends, Gloves of Illusion becomes a copy of any Gear in play' -> [][0m
+[94m[DEBUG] Разыгрывается Gloves of Illusion: effect2='{B_chain}{Spy 2}' -> [('b_chain', None), ('spy', '2')][0m
+[94m[DEBUG] Разыгрывается Gloves of Illusion: effect1text='{Def_N_Text 5}' -> [('def_n_text', '5')][0m
+[94m[DEBUG] Разыгрывается Gloves of Illusion: effect2text='None' -> [][0m
+[94m[DEBUG] Разыгрывается карта Gloves of Illusion, эффекты к применению: [('b_chain', None), ('spy', '2'), ('def_n_text', '5')][0m
+[94m[DEBUG] Разыгрывается Priestess: effect1='{Blessing 2}' -> [('blessing', '2')][0m
+[94m[DEBUG] Разыгрывается Priestess: effect2='{Trash_this}TO{Damage 2}{Discard Monster}' -> [[('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[94m[DEBUG] Разыгрывается карта Priestess, эффекты к применению: [('blessing', '2'), [('trash_this', None)], [('damage', '2'), ('discard', 'Monster')]][0m
+[93m  Blessing на ход: 2, потрачено: 0[0m
+[93m  Доступные для покупки: [][0m
+[93m[DEBUG] market.trade_row после refill: ['Mjolnir(6)', 'Divine Blade(6)', 'Cleave(7)', 'Defense(6)', 'Poisoned Blood(4)'][0m
+[93m  Куплена карта: Priestess (bulk)[0m
+[92m
+=== Ход 18 (P1) ===[0m
