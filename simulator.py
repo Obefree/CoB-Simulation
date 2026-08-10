@@ -2,6 +2,10 @@ import json
 import random
 from collections import defaultdict, Counter
 import re
+import sys
+
+# Ensure reference to the current module exists even when executed as a script
+simulator = sys.modules[__name__]
 
 # --- Глобальные переменные для Flask ---
 MAIN_CARDS = None
